@@ -1,6 +1,6 @@
-23:30:11 **** Build of project design_1_wrapperf ****
-buildplatform.bat 14900 design_1_wrapperf  
-XSDB Server Channel: tcfchan#36
+16:00:15 **** Build of project design_1_wrapperf ****
+buildplatform.bat 6579 design_1_wrapperf  
+XSDB Server Channel: tcfchan#5
 Building the zynqmp_fsbl application.
 make -C zynqmp_fsbl_bsp
 
@@ -3554,7 +3554,7 @@ Reason: Failed to generate the  zynqmp_fsbl application.
     set arglen [llength $argv]
     set lastind..."
     (file "E:/Xilinx/Vitis/2020.1\scripts\vitis\util\buildplatform.tcl" line 11)
-23:31:56 **** Build of configuration Debug for project libapp ****
+16:01:56 **** Build of configuration Debug for project libapp ****
 make all 
 'Building file: ../src/threadx/ports/tx_initialize_low_level.S'
 'Invoking: ARM R5 gcc compiler'
@@ -4779,7 +4779,7 @@ armr5-none-eabi-size libapp.a  |tee "libapp.a.size"
     144	      0	      0	    144	     90	txe_timer_info_get.o (ex libapp.a)
 'Finished building: libapp.a.size'
 ' '
-23:32:30 **** Build of configuration Debug for project r5app ****
+16:02:30 **** Build of configuration Debug for project r5app ****
 make all 
 'Building file: ../src/helper.c'
 'Invoking: ARM R5 gcc compiler'
@@ -4831,6 +4831,6 @@ armr5-none-eabi-gcc -L"D:\files\VitisProject\demoAmp\amp_plat\psu_cortexr5_0\sta
 'Invoking: ARM R5 Print Size'
 armr5-none-eabi-size r5app.elf  |tee "r5app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  95767	   4920	 128280	 228967	  37e67	r5app.elf
+  95719	   4916	 128272	 228907	  37e2b	r5app.elf
 'Finished building: r5app.elf.size'
 ' '

@@ -1,6 +1,6 @@
-23:30:11 **** Build of project design_1_wrapperf ****
-buildplatform.bat 14900 design_1_wrapperf  
-XSDB Server Channel: tcfchan#36
+16:00:15 **** Build of project design_1_wrapperf ****
+buildplatform.bat 6579 design_1_wrapperf  
+XSDB Server Channel: tcfchan#5
 Building the zynqmp_fsbl application.
 make -C zynqmp_fsbl_bsp
 
@@ -3555,5 +3555,5 @@ Reason: Failed to generate the  zynqmp_fsbl application.
     set lastind..."
     (file "E:/Xilinx/Vitis/2020.1\scripts\vitis\util\buildplatform.tcl" line 11)
 
-23:31:55 Build Finished (took 1m:44s.135ms)
+16:01:56 Build Finished (took 1m:41s.175ms)
 

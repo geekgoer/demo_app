@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;r5app/src/lscript.ld&apos; to &apos;bak.lscript.ld&apos;" description="Rename resource &apos;lscript.ld&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/lscript.ld" name="bak.lscript.ld" stamp="1772252142656" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;r5app/src/lscript.ld.amp&apos; to &apos;bak.lscript.ld.amp&apos;" description="Rename resource &apos;lscript.ld.amp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/lscript.ld.amp" name="bak.lscript.ld.amp" stamp="1772252155041" updateReferences="true"/>
+</session>

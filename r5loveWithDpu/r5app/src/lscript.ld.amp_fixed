@@ -18,7 +18,7 @@ _UNDEF_STACK_SIZE = DEFINED(_UNDEF_STACK_SIZE) ? _UNDEF_STACK_SIZE : 1024;
 /* Define Memories in the system */
 MEMORY
 {
-   /* DDR: Everything goes here (single LOAD segment for remoteproc) */
+   /* DDR: Single LOAD segment for remoteproc compatibility */
    psu_r5_ddr_amp : ORIGIN = 0x3ED00000, LENGTH = 0x01000000
 }
 
@@ -28,7 +28,7 @@ ENTRY(_vector_table)
 /* Define the sections, and where they are mapped in memory */
 SECTIONS
 {
-/* CRITICAL: All code in DDR (remoteproc will create TCM trampoline automatically) */
+/* All code in DDR - single LOAD segment */
 .vectors : {
    KEEP (*(.vectors))
    *(.boot)

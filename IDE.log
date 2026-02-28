@@ -243,3 +243,11 @@ Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors
 20:52:36 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
 22:37:40 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
 22:37:40 INFO  : No changes in MSS file content so sources will not be generated.
+11:26:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+11:26:07 INFO  : XSCT server has started successfully.
+11:26:07 INFO  : plnx-install-location is set to ''
+11:26:07 INFO  : Successfully done setting XSCT server connection channel  
+11:26:07 INFO  : Successfully done query RDI_DATADIR 
+11:26:07 INFO  : Successfully done setting workspace for the tool. 
+11:26:09 INFO  : Platform repository initialization has completed.
+11:26:09 INFO  : Registering command handlers for Vitis TCF services
