@@ -1,0 +1,10 @@
+13:58:40 **** Build of configuration Debug for project libapp_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 5271 D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/design_1_wrapperf.xpfm domain_psu_cortexr5_0 D:/files/VitisProject/demoAmp/r5loveWithDpu/libapp_system/Debug/system.bif
+sdcard_gen --xpfm D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/design_1_wrapperf.xpfm --sys_config design_1_wrapperf --bif D:/files/VitisProject/demoAmp/r5loveWithDpu/libapp_system/Debug/system.bif --bitstream D:/files/VitisProject/demoAmp/r5loveWithDpu/libapp/_ide/bitstream/design_1_wrapper.bit --elf D:/files/VitisProject/demoAmp/r5loveWithDpu/libapp/Debug/libapp.elf,psu_cortexr5_0
+ELF does not exist: D:/files/VitisProject/demoAmp/r5loveWithDpu/libapp/Debug/libapp.elf
+make: *** [makefile:39: package] Error 1
+
+13:58:43 Build Finished (took 2s.653ms)
+

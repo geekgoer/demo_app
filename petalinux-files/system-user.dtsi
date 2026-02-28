@@ -1,0 +1,114 @@
+/include/ "system-conf.dtsi"
+
+/ {
+    reserved-memory {
+        #address-cells = <2>;
+        #size-cells = <2>;
+        ranges;
+
+        rproc_0_reserved: rproc@3ed00000 {
+            no-map;
+            reg = <0x0 0x3ed00000 0x0 0x01000000>;
+        };
+
+        rpu0vdev0vring0: rpu0vdev0vring0@3fd00000 {
+            no-map;
+            reg = <0x0 0x3fd00000 0x0 0x4000>;
+        };
+
+        rpu0vdev0vring1: rpu0vdev0vring1@3fd04000 {
+            no-map;
+            reg = <0x0 0x3fd04000 0x0 0x4000>;
+        };
+
+        rpu0vdev0buffer: rpu0vdev0buffer@3fd08000 {
+            no-map;
+            reg = <0x0 0x3fd08000 0x0 0x00100000>;
+        };
+    };
+
+    tcm_0_a: tcm_0_a@ffe00000 {
+        compatible = "mmio-sram";
+        reg = <0x0 0xffe00000 0x0 0x10000>;
+    };
+
+    tcm_0_b: tcm_0_b@ffe20000 {
+        compatible = "mmio-sram";
+        reg = <0x0 0xffe20000 0x0 0x10000>;
+    };
+
+    zynqmp_ipi1 {
+        compatible = "xlnx,zynqmp-ipi-mailbox";
+        interrupt-parent = <&gic>;
+        interrupts = <0 29 4>;
+        xlnx,ipi-id = <7>;
+        #address-cells = <1>;
+        #size-cells = <1>;
+        ranges;
+
+        ipi_mailbox_rpu0: mailbox@ff990400 {
+            reg = <0xff990400 0x20>,
+                  <0xff990420 0x20>,
+                  <0xff9900c0 0x20>,
+                  <0xff9900e0 0x20>;
+            reg-names = "local_request_region",
+                        "local_response_region",
+                        "remote_request_region",
+                        "remote_response_region";
+            #mbox-cells = <1>;
+            xlnx,ipi-id = <1>;
+        };
+    };
+
+    /* 关键修改：修复 address-cells 和 size-cells 一致性 */
+    zynqmp_r5_rproc: zynqmp_r5_rproc@0 {
+        compatible = "xlnx,zynqmp-r5-remoteproc-1.0";
+        #address-cells = <2>;
+        #size-cells = <2>;
+        ranges;
+        core_conf = "split";
+        reg = <0x0 0xff9a0000 0x0 0x10000>;
+
+        r5_0: r5@0 {
+            #address-cells = <2>;
+            #size-cells = <2>;
+            ranges;
+            /* CRITICAL: Tell remoteproc that R5 address 0x0 maps to DDR 0x3ed00000 */
+            /* This makes remoteproc set R5's boot address correctly */
+            memory-region = <&rproc_0_reserved>,
+                           <&rpu0vdev0vring0>,
+                           <&rpu0vdev0vring1>,
+                           <&rpu0vdev0buffer>;
+            pnode-id = <0x7>;
+            mboxes = <&ipi_mailbox_rpu0 0>, <&ipi_mailbox_rpu0 1>;
+            mbox-names = "tx", "rx";
+            /* CRITICAL: Add power-domains to control R5 boot address */
+            power-domains = <&zynqmp_firmware 0x7>;
+            /* TCM必须启用：R5硬件从TCM(0x0)启动，sram让remoteproc能加载vector table到TCM */
+            srams = <&tcm_0_a>, <&tcm_0_b>;
+            tcm-pnode-id = <0xf>, <0x10>;
+        };
+    };
+};
+
+&amba_pl {
+    DPUCZDX8G@a0000000 {
+        compatible = "xilinx,dpu";
+        status = "okay";
+        reg = <0x0 0xa0000000 0x0 0x1000000>;
+        base-addr = <0xa0000000>;
+        interrupts = <0 89 1>;
+        core-num = <1>;
+    };
+};
+
+&sdhci1 {
+    disable-wp;
+    no-1-8-v;
+    status = "okay";
+};
+
+&dwc3_0 {
+    status = "okay";
+    dr_mode = "host";
+};

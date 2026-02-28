@@ -1,0 +1,30 @@
+The target system is: Generic -  - arm
+The host system is: Windows - 6.2 - AMD64
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/openamp_v1_6/build_openamp/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Xilinx/Vitis/2020.1/gnuwin/bin/make.exe" "cmTC_43cb3/fast"
+E:/Xilinx/Vitis/2020.1/gnuwin/bin/make.exe -f CMakeFiles/cmTC_43cb3.dir/build.make CMakeFiles/cmTC_43cb3.dir/build
+make.exe[1]: Entering directory 'D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/openamp_v1_6/build_openamp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43cb3.dir/CheckIncludeFiles.c.obj
+E:/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc.exe   -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -DUSE_AMP=1 -ID:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/include -Wall -Wextra -c   -o CMakeFiles/cmTC_43cb3.dir/CheckIncludeFiles.c.obj   -c D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/openamp_v1_6/build_openamp/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_43cb3
+E:/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc.exe  -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -DUSE_AMP=1 -ID:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/include -Wall -Wextra -c    "CMakeFiles/cmTC_43cb3.dir/CheckIncludeFiles.c.obj"   -o cmTC_43cb3  
+arm-xilinx-eabi-gcc.exe: warning: CMakeFiles/cmTC_43cb3.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make.exe[1]: Leaving directory 'D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/openamp_v1_6/build_openamp/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/openamp_v1_6/build_openamp/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Xilinx/Vitis/2020.1/gnuwin/bin/make.exe" "cmTC_08740/fast"
+E:/Xilinx/Vitis/2020.1/gnuwin/bin/make.exe -f CMakeFiles/cmTC_08740.dir/build.make CMakeFiles/cmTC_08740.dir/build
+make.exe[1]: Entering directory 'D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/openamp_v1_6/build_openamp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08740.dir/CheckIncludeFiles.c.obj
+E:/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc.exe   -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -DUSE_AMP=1 -ID:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/include -Wall -Wextra -c   -o CMakeFiles/cmTC_08740.dir/CheckIncludeFiles.c.obj   -c D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/openamp_v1_6/build_openamp/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_08740
+E:/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc.exe  -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -DUSE_AMP=1 -ID:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/include -Wall -Wextra -c    "CMakeFiles/cmTC_08740.dir/CheckIncludeFiles.c.obj"   -o cmTC_08740  
+arm-xilinx-eabi-gcc.exe: warning: CMakeFiles/cmTC_08740.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make.exe[1]: Leaving directory 'D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/openamp_v1_6/build_openamp/CMakeFiles/CMakeTmp'
+
+

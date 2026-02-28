@@ -1,0 +1,36 @@
+The target system is: Generic -  - arm
+The host system is: Windows - 6.2 - AMD64
+Determining if files xintc.h exist passed with the following output:
+Change Dir: D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Xilinx/Vitis/2020.1/gnuwin/bin/make.exe" "cmTC_6fad8/fast"
+E:/Xilinx/Vitis/2020.1/gnuwin/bin/make.exe -f CMakeFiles/cmTC_6fad8.dir/build.make CMakeFiles/cmTC_6fad8.dir/build
+make.exe[1]: Entering directory 'D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6fad8.dir/CheckIncludeFiles.c.obj
+E:/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc.exe   -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -DUNDEFINE_FILE_OPS -ID:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/include    -o CMakeFiles/cmTC_6fad8.dir/CheckIncludeFiles.c.obj   -c D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:10: fatal error: xintc.h: No such file or directory
+    2 | #include <xintc.h>
+      |          ^~~~~~~~~
+compilation terminated.
+Linking C executable cmTC_6fad8
+E:/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc.exe  -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -DUNDEFINE_FILE_OPS -ID:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/include     "CMakeFiles/cmTC_6fad8.dir/CheckIncludeFiles.c.obj"   -o cmTC_6fad8  
+arm-xilinx-eabi-gcc.exe: error: CMakeFiles/cmTC_6fad8.dir/CheckIncludeFiles.c.obj: No such file or directory
+arm-xilinx-eabi-gcc.exe: fatal error: no input files
+compilation terminated.
+make.exe[1]: Leaving directory 'D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Xilinx/Vitis/2020.1/gnuwin/bin/make.exe" "cmTC_22b15/fast"
+E:/Xilinx/Vitis/2020.1/gnuwin/bin/make.exe -f CMakeFiles/cmTC_22b15.dir/build.make CMakeFiles/cmTC_22b15.dir/build
+make.exe[1]: Entering directory 'D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22b15.dir/CheckIncludeFiles.c.obj
+E:/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc.exe   -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -DUNDEFINE_FILE_OPS -ID:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/include -c   -o CMakeFiles/cmTC_22b15.dir/CheckIncludeFiles.c.obj   -c D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_22b15
+E:/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-gcc.exe  -O2 -c -mcpu=cortex-r5 -g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -DUNDEFINE_FILE_OPS -ID:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/include -c    "CMakeFiles/cmTC_22b15.dir/CheckIncludeFiles.c.obj"   -o cmTC_22b15  
+arm-xilinx-eabi-gcc.exe: warning: CMakeFiles/cmTC_22b15.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make.exe[1]: Leaving directory 'D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrapperf/zynqmp_pmufw/zynqmp_pmufw_bsp/psu_cortexr5_0/libsrc/libmetal_v2_1/build_libmetal/CMakeFiles/CMakeTmp'
+
+

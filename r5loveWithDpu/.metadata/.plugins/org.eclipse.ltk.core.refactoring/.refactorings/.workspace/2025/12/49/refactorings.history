@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;r5app/src/threadx&apos;" deleteContents="false" description="Delete resource &apos;r5app/src/threadx&apos;" element1="/r5app/src/threadx" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1764675621901"/>&#x0A;<refactoring comment="Delete resource &apos;libapp/src/threadx/inc&apos;" deleteContents="false" description="Delete resource &apos;libapp/src/threadx/inc&apos;" element1="/libapp/src/threadx/inc" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1764680023017"/>
+</session>

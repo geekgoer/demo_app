@@ -1,0 +1,29 @@
+TRACE::2026-01-19.21:17:27::SCWBifWriter::Found the complete platform D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+TRACE::2026-01-19.21:17:27::SCWBifWriter::hardware databse : design_1_wrapper_3
+TRACE::2026-01-19.21:17:27::SCWBifWriter::bitstream found in the design
+TRACE::2026-01-19.21:17:27::SCWBifWriter::Found a baremetal domain, proc: psu_cortexr5_0
+TRACE::2026-01-19.21:17:27::SCWBifWriter::proc type : 
+TRACE::2026-01-19.21:17:27::SCWBifWriter::proc[0] : psu_cortexr5_0
+TRACE::2026-01-19.21:17:27::SCWBifWriter::Device type is : zynqMP
+TRACE::2026-01-19.21:17:27::SCWBifWriter::Writing BIF to file : D:/files/VitisProject/demoAmp/r5_amp_echo_system/Debug/system.bif
+TRACE::2026-01-19.21:17:27::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2026-01-19.21:17:27::SCWBifWriter::System Command Ran  E:/Xilinx/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/boot/fsbl.elf
+TRACE::2026-01-19.21:17:27::SCWBifWriter:: Command Ran  E:/Xilinx/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/boot/fsbl.elf
+TRACE::2026-01-19.21:17:27::SCWBifWriter::FSBL processor, command ran E:/Xilinx/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/boot/fsbl.elf
+TRACE::2026-01-19.21:17:27::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2026-01-19.21:17:27::SCWBifWriter::Boot processor is :a53-0
+TRACE::2026-01-27.09:51:03::SCWBifWriter::Found the complete platform D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+TRACE::2026-01-27.09:51:03::SCWBifWriter::hardware databse : design_1_wrapper_0
+TRACE::2026-01-27.09:51:03::SCWBifWriter::bitstream found in the design
+TRACE::2026-01-27.09:51:03::SCWBifWriter::Found a baremetal domain, proc: psu_cortexr5_0
+TRACE::2026-01-27.09:51:03::SCWBifWriter::proc type : 
+TRACE::2026-01-27.09:51:03::SCWBifWriter::proc[0] : psu_cortexr5_0
+TRACE::2026-01-27.09:51:03::SCWBifWriter::Device type is : zynqMP
+TRACE::2026-01-27.09:51:03::SCWBifWriter::Writing BIF to file : D:/files/VitisProject/demoAmp/r5_amp_echo_system/Debug/system.bif
+TRACE::2026-01-27.09:51:03::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2026-01-27.09:51:03::SCWBifWriter::System Command Ran  E:/Xilinx/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/boot/fsbl.elf
+TRACE::2026-01-27.09:51:03::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2026-01-27.09:51:03::SCWBifWriter:: Command Ran  E:/Xilinx/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/boot/fsbl.elf
+TRACE::2026-01-27.09:51:03::SCWBifWriter::FSBL processor, command ran E:/Xilinx/Vitis/2020.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/boot/fsbl.elf
+TRACE::2026-01-27.09:51:03::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2026-01-27.09:51:03::SCWBifWriter::Boot processor is :a53-0

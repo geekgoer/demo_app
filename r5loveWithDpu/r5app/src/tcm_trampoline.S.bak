@@ -1,0 +1,13 @@
+/*
+ * TCM Trampoline - Jump from TCM to DDR
+ * This code is placed at 0x0 (TCM) and jumps to the real vector table in DDR
+ */
+
+.section .tcm_trampoline, "ax"
+.global _tcm_start
+
+_tcm_start:
+    /* Load address of DDR vector table into PC */
+    ldr pc, =_vector_table
+
+.align 4

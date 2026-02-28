@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(readelf:*)",
+      "Bash(find:*)",
+      "Bash(arm-none-eabi-objdump:*)",
+      "Bash(/e/Xilinx/Vitis/2020.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe -d libxil.a)",
+      "Bash(xargs:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(# Find ARM cross-compile tools which armr5-none-eabi-readelf || which arm-none-eabi-readelf || find /c/Xilinx /d/Xilinx -name \"\"armr5-none-eabi-readelf.exe\"\")",
+      "Bash(READELF=\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-readelf.exe\":*)",
+      "Bash(ELF=\"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(__NEW_LINE_a0058c3e05dc23e2__ echo \"=== ELF Header \\(entry point\\) ===\")",
+      "Bash(\"$READELF\" -h \"$ELF\")",
+      "Bash(__NEW_LINE_48d194bacf91abb0__ echo \"\")",
+      "Bash(\"$READELF\" -l \"$ELF\")",
+      "Bash(\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-readelf.exe\" -h \"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-readelf.exe\" -l \"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-readelf.exe\" -S \"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-objdump.exe\" -d --start-address=0x3ED00E80 --stop-address=0x3ED01000 \"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-nm.exe\" \"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-objdump.exe\" -d --start-address=0x3ed00e64 --stop-address=0x3ed00ee0 \"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-objdump.exe\" -d --start-address=0x3ed02fe4 --stop-address=0x3ed03100 \"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-objdump.exe\" -d --start-address=0x3ed0197c --stop-address=0x3ed01a40 \"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(\"/e/Xilinx/Vitis/2020.1/gnu/armr5/nt/gcc-arm-none-eabi/bin/armr5-none-eabi-objdump.exe\" -d --start-address=0x3ed00591 --stop-address=0x3ed00640 \"D:/files/VitisProject/demoAmp/r5loveWithDpu/r5app/Debug/r5app.elf\")",
+      "Bash(__NEW_LINE_8dc0b2b756b24310__ cp \"D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/standalone_v7_2/src/arm/cortexr5/gcc/xil-crt0.S\" \"D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/standalone_v7_2/src/xil-crt0.S\")",
+      "Bash(__NEW_LINE_8dc0b2b756b24310__ ls -la \"D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/psu_cortexr5_0/libsrc/standalone_v7_2/src/boot.S\")",
+      "Bash(/c/Xilinx/Vitis/2020.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-readelf.exe -h r5app.elf)",
+      "Bash(/e/Xilinx/Vitis/2020.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-readelf.exe -h r5app.elf)"
+    ]
+  }
+}

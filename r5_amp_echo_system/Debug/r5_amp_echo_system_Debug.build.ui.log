@@ -1,0 +1,12 @@
+2026-01-27T09:51:02.083599300255-09:51:02 **** Build of configuration Debug for project r5_amp_echo_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 3496 D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm standalone_domain D:/files/VitisProject/demoAmp/r5_amp_echo_system/Debug/system.bif
+000-sdcard_gen --xpfm D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm --sys_config amp_plat --bif D:/files/VitisProject/demoAmp/r5_amp_echo_system/Debug/system.bif --bitstream D:/files/VitisProject/demoAmp/r5_amp_echo/_ide/bitstream/completeHW.bit --elf D:/files/VitisProject/demoAmp/r5_amp_echo/Debug/r5_amp_echo.elf,psu_cortexr5_0
+000-creating BOOT.BIN using D:/files/VitisProject/demoAmp/r5_amp_echo/_ide/bitstream/completeHW.bit
+000/r5_amp_echo_system/Debug0-1-1platform file not found: D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/boot/fsbl.elf2-Error: platform file not found: D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/boot/fsbl.elf
+000-Running E:/Xilinx/Vitis/2020.1/bin/bootgen -arch zynqmp -image D:/files/VitisProject/demoAmp/r5_amp_echo_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+000-[ERROR]  : Cannot read file - D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/boot/fsbl.elf
+00255-
+09:51:08 Build Finished (took 6s.20ms)
+

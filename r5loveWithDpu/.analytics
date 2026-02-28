@@ -1,0 +1,464 @@
+timestamp=[2025-12-02 17:16:47], mode=WORKBENCH_START, duration=0:00:03.975, duration_ms=3975, data={}
+timestamp=[2025-12-02 17:16:48], mode=WORKBENCH_UI_INIT, duration=0:00:00.432, duration_ms=432, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-12-02 17:16:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.534, duration_ms=1534, data={}
+timestamp=[2025-12-02 17:20:21], mode=APP_CREATION, duration=0:00:20.507, duration_ms=20507, data={name=r5app, project_type=sdk, os=standalone, processor=psu_cortexr5, runtime=cpp, platform=design_1_wrapperf, application_type=application}
+timestamp=[2025-12-02 19:22:29], mode=PLATFORM_GENERATION, duration=0:02:09.025, duration_ms=129025, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 19:23:09], mode=BUILD, duration=0:00:39.356, duration_ms=39356, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 19:31:07], mode=APP_CREATION, duration=0:00:01.208, duration_ms=1208, data={name=libapp, project_type=sdk, os=standalone, processor=cortex-r5, runtime=C/C++, platform=design_1_wrapperf, application_type=application}
+timestamp=[2025-12-02 19:50:20], mode=BUILD, duration=0:00:34.264, duration_ms=34264, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 20:19:20], mode=BUILD, duration=0:00:00.501, duration_ms=501, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 20:19:21], mode=BUILD, duration=0:00:00.259, duration_ms=259, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 20:19:21], mode=BUILD, duration=0:00:00.747, duration_ms=747, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 20:19:28], mode=BUILD, duration=0:00:00.505, duration_ms=505, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 20:20:33], mode=PLATFORM_GENERATION, duration=0:00:05.250, duration_ms=5250, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 20:20:34], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 20:20:34], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 20:22:10], mode=PLATFORM_GENERATION, duration=0:01:32.660, duration_ms=92660, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 20:22:49], mode=BUILD, duration=0:00:34.427, duration_ms=34427, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 20:22:50], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 20:22:52], mode=BUILD, duration=0:00:02.174, duration_ms=2174, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 20:52:04], mode=BUILD, duration=0:00:00.572, duration_ms=572, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 20:52:05], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 20:52:07], mode=BUILD, duration=0:00:01.239, duration_ms=1239, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 20:52:24], mode=BUILD, duration=0:00:00.514, duration_ms=514, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 20:59:26], mode=PLATFORM_GENERATION, duration=0:00:04.861, duration_ms=4861, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 20:59:26], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:01:03], mode=PLATFORM_GENERATION, duration=0:01:32.445, duration_ms=92445, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:01:52], mode=BUILD, duration=0:00:43.931, duration_ms=43931, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:02:49], mode=PLATFORM_GENERATION, duration=0:00:04.823, duration_ms=4823, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:02:49], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:02:49], mode=BUILD, duration=0:00:00.187, duration_ms=187, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:05:10], mode=PLATFORM_GENERATION, duration=0:01:38.953, duration_ms=98953, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:05:57], mode=BUILD, duration=0:00:41.722, duration_ms=41722, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:05:58], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:05:59], mode=BUILD, duration=0:00:00.881, duration_ms=881, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:09:50], mode=PLATFORM_GENERATION, duration=0:00:04.567, duration_ms=4567, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:09:50], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:11:34], mode=PLATFORM_GENERATION, duration=0:01:40.415, duration_ms=100415, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:12:18], mode=BUILD, duration=0:00:39.327, duration_ms=39327, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:14:51], mode=PLATFORM_GENERATION, duration=0:00:04.877, duration_ms=4877, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:14:52], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:14:52], mode=BUILD, duration=0:00:00.132, duration_ms=132, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:18:49], mode=PLATFORM_GENERATION, duration=0:01:37.882, duration_ms=97882, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:19:33], mode=BUILD, duration=0:00:39.864, duration_ms=39864, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:19:35], mode=BUILD, duration=0:00:00.987, duration_ms=987, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:25:00], mode=BUILD, duration=0:00:00.526, duration_ms=526, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:25:01], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:35:16], mode=PLATFORM_GENERATION, duration=0:00:04.705, duration_ms=4705, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:35:16], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:36:58], mode=PLATFORM_GENERATION, duration=0:01:35.943, duration_ms=95943, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:37:41], mode=BUILD, duration=0:00:38.249, duration_ms=38249, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:38:10], mode=PLATFORM_GENERATION, duration=0:00:04.757, duration_ms=4757, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:38:10], mode=BUILD, duration=0:00:00.257, duration_ms=257, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:38:10], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 21:39:51], mode=PLATFORM_GENERATION, duration=0:01:38.209, duration_ms=98209, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 21:40:34], mode=BUILD, duration=0:00:37.498, duration_ms=37498, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 21:40:35], mode=BUILD, duration=0:00:00.808, duration_ms=808, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 22:06:42], mode=PLATFORM_GENERATION, duration=0:00:05.108, duration_ms=5108, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 22:06:43], mode=BUILD, duration=0:00:00.262, duration_ms=262, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 22:06:43], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-02 22:08:37], mode=PLATFORM_GENERATION, duration=0:01:50.195, duration_ms=110195, data={name=design_1_wrapperf}
+timestamp=[2025-12-02 22:09:24], mode=BUILD, duration=0:00:41.631, duration_ms=41631, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-02 22:09:26], mode=BUILD, duration=0:00:00.980, duration_ms=980, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-09 19:57:39], mode=WORKBENCH_START, duration=0:00:09.701, duration_ms=9701, data={}
+timestamp=[2025-12-09 19:57:40], mode=WORKBENCH_UI_INIT, duration=0:00:00.550, duration_ms=550, data={editors_count=14, platform_editors_count=4, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2025-12-09 19:57:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.027, duration_ms=27, data={}
+timestamp=[2025-12-25 10:38:37], mode=WORKBENCH_START, duration=0:00:09.005, duration_ms=9005, data={}
+timestamp=[2025-12-25 10:38:37], mode=WORKBENCH_UI_INIT, duration=0:00:00.674, duration_ms=674, data={editors_count=14, platform_editors_count=4, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2025-12-25 10:38:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.061, duration_ms=61, data={}
+timestamp=[2025-12-25 10:50:25], mode=WORKBENCH_START, duration=0:00:06.927, duration_ms=6927, data={}
+timestamp=[2025-12-25 10:50:25], mode=WORKBENCH_UI_INIT, duration=0:00:00.528, duration_ms=528, data={editors_count=14, platform_editors_count=4, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2025-12-25 10:50:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.025, duration_ms=25, data={}
+timestamp=[2025-12-25 10:54:50], mode=PLATFORM_GENERATION, duration=0:01:48.225, duration_ms=108225, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 10:54:50], mode=BUILD, duration=0:00:00.618, duration_ms=618, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 10:55:07], mode=BUILD, duration=0:00:00.583, duration_ms=583, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 10:55:07], mode=BUILD, duration=0:00:00.103, duration_ms=103, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 11:03:06], mode=PLATFORM_GENERATION, duration=0:00:04.403, duration_ms=4403, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 11:03:06], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-25 11:11:12], mode=PLATFORM_GENERATION, duration=0:01:17.003, duration_ms=77003, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 11:21:46], mode=PLATFORM_GENERATION, duration=0:00:04.045, duration_ms=4045, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 11:21:46], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-25 11:23:11], mode=PLATFORM_GENERATION, duration=0:01:21.615, duration_ms=81615, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 11:23:44], mode=BUILD, duration=0:00:32.999, duration_ms=32999, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 11:25:50], mode=PLATFORM_GENERATION, duration=0:00:47.150, duration_ms=47150, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 11:25:51], mode=BUILD, duration=0:00:00.557, duration_ms=557, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 11:25:51], mode=BUILD, duration=0:00:00.106, duration_ms=106, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 11:27:11], mode=PLATFORM_GENERATION, duration=0:00:03.792, duration_ms=3792, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 11:27:11], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2025-12-25 11:27:11], mode=BUILD, duration=0:00:00.103, duration_ms=103, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2025-12-25 11:30:10], mode=PLATFORM_GENERATION, duration=0:01:11.566, duration_ms=71566, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 11:30:41], mode=BUILD, duration=0:00:30.938, duration_ms=30938, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 11:30:43], mode=BUILD, duration=0:00:01.969, duration_ms=1969, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2025-12-25 15:26:56], mode=PLATFORM_GENERATION, duration=0:00:57.274, duration_ms=57274, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 15:29:15], mode=PLATFORM_GENERATION, duration=0:00:04.306, duration_ms=4306, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 15:32:58], mode=PLATFORM_GENERATION, duration=0:01:23.251, duration_ms=83251, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 15:37:22], mode=PLATFORM_GENERATION, duration=0:00:04.189, duration_ms=4189, data={name=design_1_wrapperf}
+timestamp=[2025-12-25 15:38:44], mode=PLATFORM_GENERATION, duration=0:01:18.243, duration_ms=78243, data={name=design_1_wrapperf}
+timestamp=[2025-12-27 15:59:05], mode=WORKBENCH_START, duration=0:00:10.318, duration_ms=10318, data={}
+timestamp=[2025-12-27 15:59:06], mode=WORKBENCH_UI_INIT, duration=0:00:01.057, duration_ms=1057, data={editors_count=18, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2025-12-27 15:59:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.076, duration_ms=76, data={}
+timestamp=[2025-12-30 10:51:01], mode=WORKBENCH_START, duration=0:00:08.232, duration_ms=8232, data={}
+timestamp=[2025-12-30 10:51:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.677, duration_ms=677, data={editors_count=18, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2025-12-30 10:51:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.054, duration_ms=54, data={}
+timestamp=[2026-01-09 22:41:38], mode=WORKBENCH_START, duration=0:00:09.942, duration_ms=9942, data={}
+timestamp=[2026-01-09 22:41:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.684, duration_ms=684, data={editors_count=18, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-01-09 22:41:39], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.059, duration_ms=59, data={}
+timestamp=[2026-02-03 11:21:12], mode=WORKBENCH_START, duration=0:00:10.210, duration_ms=10210, data={}
+timestamp=[2026-02-03 11:21:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.058, duration_ms=58, data={}
+timestamp=[2026-02-03 11:21:13], mode=WORKBENCH_UI_INIT, duration=0:00:01.138, duration_ms=1138, data={editors_count=19, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-03 11:28:54], mode=WORKBENCH_START, duration=0:00:06.665, duration_ms=6665, data={}
+timestamp=[2026-02-03 11:28:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.599, duration_ms=599, data={editors_count=19, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-03 11:28:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.030, duration_ms=30, data={}
+timestamp=[2026-02-03 13:37:22], mode=PLATFORM_GENERATION, duration=0:00:15.349, duration_ms=15349, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 13:52:44], mode=PLATFORM_GENERATION, duration=0:01:53.554, duration_ms=113554, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 13:55:59], mode=PLATFORM_GENERATION, duration=0:00:14.941, duration_ms=14941, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 13:55:59], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 13:58:00], mode=PLATFORM_GENERATION, duration=0:01:53.355, duration_ms=113355, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 13:58:40], mode=BUILD, duration=0:00:39.378, duration_ms=39378, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-03 13:58:43], mode=BUILD, duration=0:00:02.667, duration_ms=2667, data={name=libapp_system, configuration=Debug, clean_build=false}
+timestamp=[2026-02-03 14:00:00], mode=PLATFORM_GENERATION, duration=0:00:15.298, duration_ms=15298, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 14:00:01], mode=BUILD, duration=0:00:00.238, duration_ms=238, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 14:02:31], mode=PLATFORM_GENERATION, duration=0:02:06.809, duration_ms=126809, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 14:03:07], mode=BUILD, duration=0:00:36.125, duration_ms=36125, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-03 14:28:55], mode=PLATFORM_GENERATION, duration=0:00:15.002, duration_ms=15002, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 14:28:55], mode=BUILD, duration=0:00:00.233, duration_ms=233, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 14:28:56], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 14:30:45], mode=PLATFORM_GENERATION, duration=0:01:43.581, duration_ms=103581, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 14:31:19], mode=BUILD, duration=0:00:34.698, duration_ms=34698, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-03 14:31:20], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 14:31:21], mode=BUILD, duration=0:00:01.456, duration_ms=1456, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-03 15:05:07], mode=PLATFORM_GENERATION, duration=0:00:15.696, duration_ms=15696, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 15:05:07], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 15:05:08], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 15:08:07], mode=PLATFORM_GENERATION, duration=0:02:06.807, duration_ms=126807, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 15:08:45], mode=BUILD, duration=0:00:37.265, duration_ms=37265, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-03 15:08:45], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 15:08:47], mode=BUILD, duration=0:00:01.948, duration_ms=1948, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-03 15:33:45], mode=PLATFORM_GENERATION, duration=0:00:15.595, duration_ms=15595, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 15:33:45], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 15:33:45], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 15:38:00], mode=PLATFORM_GENERATION, duration=0:01:58.328, duration_ms=118328, data={name=design_1_wrapperf}
+timestamp=[2026-02-03 15:38:35], mode=BUILD, duration=0:00:34.788, duration_ms=34788, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-03 15:38:35], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-03 15:38:37], mode=BUILD, duration=0:00:01.310, duration_ms=1310, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 18:32:27], mode=WORKBENCH_START, duration=0:00:07.016, duration_ms=7016, data={}
+timestamp=[2026-02-04 18:32:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.597, duration_ms=597, data={editors_count=20, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-04 18:32:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.036, duration_ms=36, data={}
+timestamp=[2026-02-04 18:41:31], mode=PLATFORM_GENERATION, duration=0:00:23.402, duration_ms=23402, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 18:41:31], mode=BUILD, duration=0:00:00.315, duration_ms=315, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 18:41:31], mode=BUILD, duration=0:00:00.184, duration_ms=184, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 18:43:55], mode=PLATFORM_GENERATION, duration=0:02:20.187, duration_ms=140187, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 18:44:35], mode=BUILD, duration=0:00:39.155, duration_ms=39155, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 18:44:35], mode=BUILD, duration=0:00:00.176, duration_ms=176, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 18:44:37], mode=BUILD, duration=0:00:01.883, duration_ms=1883, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 19:11:17], mode=PLATFORM_GENERATION, duration=0:00:15.936, duration_ms=15936, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 19:11:17], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 19:11:17], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 19:13:29], mode=PLATFORM_GENERATION, duration=0:02:04.524, duration_ms=124524, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 19:14:08], mode=BUILD, duration=0:00:39.554, duration_ms=39554, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 19:14:09], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 19:14:49], mode=BUILD, duration=0:00:39.906, duration_ms=39906, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 19:20:13], mode=PLATFORM_GENERATION, duration=0:00:15.574, duration_ms=15574, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 19:20:13], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 19:20:13], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 19:22:57], mode=PLATFORM_GENERATION, duration=0:02:06.663, duration_ms=126663, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 19:23:37], mode=BUILD, duration=0:00:39.515, duration_ms=39515, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 19:23:37], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 19:23:39], mode=BUILD, duration=0:00:01.766, duration_ms=1766, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 19:55:57], mode=PLATFORM_GENERATION, duration=0:00:15.660, duration_ms=15660, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 19:55:57], mode=BUILD, duration=0:00:00.238, duration_ms=238, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 19:55:57], mode=BUILD, duration=0:00:00.188, duration_ms=188, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 19:59:57], mode=PLATFORM_GENERATION, duration=0:02:03.885, duration_ms=123885, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 20:00:36], mode=BUILD, duration=0:00:38.953, duration_ms=38953, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 20:00:36], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:00:38], mode=BUILD, duration=0:00:01.756, duration_ms=1756, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 20:05:02], mode=PLATFORM_GENERATION, duration=0:00:15.717, duration_ms=15717, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 20:05:02], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:05:02], mode=BUILD, duration=0:00:00.185, duration_ms=185, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:07:33], mode=PLATFORM_GENERATION, duration=0:02:06.345, duration_ms=126345, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 20:08:13], mode=BUILD, duration=0:00:40.045, duration_ms=40045, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 20:08:13], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:08:15], mode=BUILD, duration=0:00:01.777, duration_ms=1777, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 20:09:20], mode=PLATFORM_GENERATION, duration=0:00:15.579, duration_ms=15579, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 20:09:20], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:09:20], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:12:00], mode=PLATFORM_GENERATION, duration=0:02:07.890, duration_ms=127890, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 20:12:42], mode=BUILD, duration=0:00:41.974, duration_ms=41974, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 20:12:42], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:12:44], mode=BUILD, duration=0:00:01.883, duration_ms=1883, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 20:22:12], mode=PLATFORM_GENERATION, duration=0:00:16.090, duration_ms=16090, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 20:22:12], mode=BUILD, duration=0:00:00.255, duration_ms=255, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:22:12], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:26:42], mode=PLATFORM_GENERATION, duration=0:02:03.152, duration_ms=123152, data={name=design_1_wrapperf}
+timestamp=[2026-02-04 20:27:21], mode=BUILD, duration=0:00:38.843, duration_ms=38843, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-04 20:27:21], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-04 20:27:23], mode=BUILD, duration=0:00:01.750, duration_ms=1750, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-05 00:42:09], mode=PLATFORM_GENERATION, duration=0:00:30.333, duration_ms=30333, data={name=design_1_wrapperf}
+timestamp=[2026-02-05 00:42:10], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-05 00:42:10], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-05 00:45:18], mode=PLATFORM_GENERATION, duration=0:03:04.970, duration_ms=184970, data={name=design_1_wrapperf}
+timestamp=[2026-02-05 00:46:28], mode=BUILD, duration=0:01:10.002, duration_ms=70002, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-05 00:46:32], mode=BUILD, duration=0:00:02.933, duration_ms=2933, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-05 10:32:55], mode=WORKBENCH_START, duration=0:00:07.948, duration_ms=7948, data={}
+timestamp=[2026-02-05 10:32:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.629, duration_ms=629, data={editors_count=20, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-05 10:32:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.055, duration_ms=55, data={}
+timestamp=[2026-02-05 19:55:02], mode=PLATFORM_GENERATION, duration=0:00:25.026, duration_ms=25026, data={name=design_1_wrapperf}
+timestamp=[2026-02-05 19:55:02], mode=BUILD, duration=0:00:00.306, duration_ms=306, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-05 19:55:02], mode=BUILD, duration=0:00:00.182, duration_ms=182, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-05 20:03:08], mode=PLATFORM_GENERATION, duration=0:02:56.839, duration_ms=176839, data={name=design_1_wrapperf}
+timestamp=[2026-02-05 20:03:53], mode=BUILD, duration=0:00:44.364, duration_ms=44364, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-05 20:03:55], mode=BUILD, duration=0:00:01.894, duration_ms=1894, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-05 20:19:07], mode=PLATFORM_GENERATION, duration=0:00:17.894, duration_ms=17894, data={name=design_1_wrapperf}
+timestamp=[2026-02-05 20:19:07], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-05 20:19:07], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-05 20:22:34], mode=PLATFORM_GENERATION, duration=0:02:48.147, duration_ms=168147, data={name=design_1_wrapperf}
+timestamp=[2026-02-05 20:23:18], mode=BUILD, duration=0:00:43.248, duration_ms=43248, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-05 20:23:29], mode=BUILD, duration=0:00:10.415, duration_ms=10415, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-12 22:49:14], mode=WORKBENCH_START, duration=0:00:12.809, duration_ms=12809, data={}
+timestamp=[2026-02-12 22:49:15], mode=WORKBENCH_UI_INIT, duration=0:00:00.903, duration_ms=903, data={editors_count=20, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-12 22:49:15], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.079, duration_ms=79, data={}
+timestamp=[2026-02-13 20:06:55], mode=WORKBENCH_START, duration=0:00:10.896, duration_ms=10896, data={}
+timestamp=[2026-02-13 20:06:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.631, duration_ms=631, data={editors_count=20, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-13 20:06:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.070, duration_ms=70, data={}
+timestamp=[2026-02-13 20:34:03], mode=PLATFORM_GENERATION, duration=0:00:19.979, duration_ms=19979, data={name=design_1_wrapperf}
+timestamp=[2026-02-13 20:34:04], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-13 20:34:04], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-13 20:36:25], mode=PLATFORM_GENERATION, duration=0:02:09.924, duration_ms=129924, data={name=design_1_wrapperf}
+timestamp=[2026-02-13 20:37:04], mode=BUILD, duration=0:00:38.290, duration_ms=38290, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-13 20:37:06], mode=BUILD, duration=0:00:01.843, duration_ms=1843, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-13 21:44:22], mode=PLATFORM_GENERATION, duration=0:00:13.803, duration_ms=13803, data={name=design_1_wrapperf}
+timestamp=[2026-02-13 21:44:22], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-13 21:44:22], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-13 23:02:03], mode=PLATFORM_GENERATION, duration=0:01:59.354, duration_ms=119354, data={name=design_1_wrapperf}
+timestamp=[2026-02-13 23:02:47], mode=BUILD, duration=0:00:43.733, duration_ms=43733, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-13 23:02:49], mode=BUILD, duration=0:00:02.023, duration_ms=2023, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-14 00:16:09], mode=PLATFORM_GENERATION, duration=0:00:13.565, duration_ms=13565, data={name=design_1_wrapperf}
+timestamp=[2026-02-14 00:16:09], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-14 00:16:09], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-14 00:21:58], mode=PLATFORM_GENERATION, duration=0:01:50.203, duration_ms=110203, data={name=design_1_wrapperf}
+timestamp=[2026-02-14 00:22:35], mode=BUILD, duration=0:00:37.300, duration_ms=37300, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-14 00:22:37], mode=BUILD, duration=0:00:01.625, duration_ms=1625, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-14 01:15:46], mode=PLATFORM_GENERATION, duration=0:00:12.340, duration_ms=12340, data={name=design_1_wrapperf}
+timestamp=[2026-02-14 01:15:46], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-14 01:15:46], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-14 01:18:17], mode=PLATFORM_GENERATION, duration=0:01:50.439, duration_ms=110439, data={name=design_1_wrapperf}
+timestamp=[2026-02-14 01:18:52], mode=BUILD, duration=0:00:34.069, duration_ms=34069, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-14 01:18:54], mode=BUILD, duration=0:00:01.621, duration_ms=1621, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-14 01:43:26], mode=PLATFORM_GENERATION, duration=0:00:12.596, duration_ms=12596, data={name=design_1_wrapperf}
+timestamp=[2026-02-14 01:43:27], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-14 01:43:27], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-14 01:45:48], mode=PLATFORM_GENERATION, duration=0:01:49.508, duration_ms=109508, data={name=design_1_wrapperf}
+timestamp=[2026-02-14 01:46:23], mode=BUILD, duration=0:00:34.587, duration_ms=34587, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-14 01:46:25], mode=BUILD, duration=0:00:01.826, duration_ms=1826, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-17 14:49:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.064, duration_ms=64, data={}
+timestamp=[2026-02-17 14:49:42], mode=WORKBENCH_START, duration=0:00:09.298, duration_ms=9298, data={}
+timestamp=[2026-02-17 14:49:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.561, duration_ms=561, data={editors_count=19, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-17 14:50:21], mode=PLATFORM_GENERATION, duration=0:00:19.965, duration_ms=19965, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 14:50:22], mode=BUILD, duration=0:00:00.301, duration_ms=301, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 14:50:22], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 14:52:44], mode=PLATFORM_GENERATION, duration=0:02:05.268, duration_ms=125268, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 14:53:21], mode=BUILD, duration=0:00:36.325, duration_ms=36325, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-17 14:53:23], mode=BUILD, duration=0:00:01.888, duration_ms=1888, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-17 20:44:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.049, duration_ms=49, data={}
+timestamp=[2026-02-17 20:44:26], mode=WORKBENCH_START, duration=0:00:09.962, duration_ms=9962, data={}
+timestamp=[2026-02-17 20:44:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.671, duration_ms=671, data={editors_count=19, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-17 20:45:00], mode=PLATFORM_GENERATION, duration=0:00:20.628, duration_ms=20628, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 20:45:00], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 20:45:01], mode=BUILD, duration=0:00:00.188, duration_ms=188, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 20:47:27], mode=PLATFORM_GENERATION, duration=0:02:20.887, duration_ms=140887, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 20:48:16], mode=BUILD, duration=0:00:48.901, duration_ms=48901, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-17 20:48:19], mode=BUILD, duration=0:00:02.336, duration_ms=2336, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-17 22:15:01], mode=PLATFORM_GENERATION, duration=0:00:14.318, duration_ms=14318, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 22:15:01], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 22:15:02], mode=BUILD, duration=0:00:00.177, duration_ms=177, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 22:17:28], mode=PLATFORM_GENERATION, duration=0:02:20.399, duration_ms=140399, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 22:18:11], mode=BUILD, duration=0:00:43.610, duration_ms=43610, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-17 22:18:14], mode=BUILD, duration=0:00:02.150, duration_ms=2150, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-17 23:16:31], mode=PLATFORM_GENERATION, duration=0:01:13.331, duration_ms=73331, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 23:18:34], mode=PLATFORM_GENERATION, duration=0:00:13.209, duration_ms=13209, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 23:18:35], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 23:18:35], mode=BUILD, duration=0:00:00.173, duration_ms=173, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 23:21:26], mode=PLATFORM_GENERATION, duration=0:02:08.518, duration_ms=128518, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 23:22:10], mode=BUILD, duration=0:00:43.654, duration_ms=43654, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-17 23:22:12], mode=BUILD, duration=0:00:02.180, duration_ms=2180, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-17 23:31:59], mode=PLATFORM_GENERATION, duration=0:00:13.367, duration_ms=13367, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 23:56:24], mode=PLATFORM_GENERATION, duration=0:02:14.525, duration_ms=134525, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 23:57:14], mode=PLATFORM_GENERATION, duration=0:00:13.262, duration_ms=13262, data={name=design_1_wrapperf}
+timestamp=[2026-02-17 23:57:14], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 23:57:14], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-17 23:59:18], mode=PLATFORM_GENERATION, duration=0:01:59.218, duration_ms=119218, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:00:00], mode=BUILD, duration=0:00:42.066, duration_ms=42066, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-18 00:00:02], mode=BUILD, duration=0:00:02.185, duration_ms=2185, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-18 00:13:17], mode=PLATFORM_GENERATION, duration=0:00:13.639, duration_ms=13639, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:15:41], mode=PLATFORM_GENERATION, duration=0:02:11.769, duration_ms=131769, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:17:02], mode=PLATFORM_GENERATION, duration=0:00:13.162, duration_ms=13162, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:17:02], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-18 00:19:45], mode=PLATFORM_GENERATION, duration=0:02:05.920, duration_ms=125920, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:20:27], mode=BUILD, duration=0:00:42.004, duration_ms=42004, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-18 00:22:24], mode=PLATFORM_GENERATION, duration=0:01:11.994, duration_ms=71994, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:22:25], mode=BUILD, duration=0:00:00.502, duration_ms=502, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-18 00:22:38], mode=PLATFORM_GENERATION, duration=0:00:13.329, duration_ms=13329, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:22:39], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-18 00:22:39], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-18 00:24:45], mode=PLATFORM_GENERATION, duration=0:02:06.042, duration_ms=126042, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:25:37], mode=BUILD, duration=0:00:52.277, duration_ms=52277, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-18 00:25:40], mode=BUILD, duration=0:00:02.620, duration_ms=2620, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-18 00:25:55], mode=PLATFORM_GENERATION, duration=0:00:14.202, duration_ms=14202, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:25:55], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-18 00:25:55], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-18 00:25:58], mode=PLATFORM_GENERATION, duration=0:00:01.952, duration_ms=1952, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:25:58], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-18 00:25:58], mode=BUILD, duration=0:00:00.179, duration_ms=179, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-18 00:32:28], mode=PLATFORM_GENERATION, duration=0:02:26.109, duration_ms=146109, data={name=design_1_wrapperf}
+timestamp=[2026-02-18 00:33:17], mode=BUILD, duration=0:00:49.052, duration_ms=49052, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-18 00:33:20], mode=BUILD, duration=0:00:02.418, duration_ms=2418, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-18 23:01:48], mode=WORKBENCH_START, duration=0:00:12.201, duration_ms=12201, data={}
+timestamp=[2026-02-18 23:01:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.798, duration_ms=798, data={editors_count=19, platform_editors_count=6, projects_count=6, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-18 23:01:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.082, duration_ms=82, data={}
+timestamp=[2026-02-19 10:18:29], mode=WORKBENCH_START, duration=0:00:07.837, duration_ms=7837, data={}
+timestamp=[2026-02-19 10:18:30], mode=WORKBENCH_UI_INIT, duration=0:00:00.549, duration_ms=549, data={editors_count=22, platform_editors_count=9, projects_count=6, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-19 10:18:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.047, duration_ms=47, data={}
+timestamp=[2026-02-19 10:24:24], mode=PLATFORM_GENERATION, duration=0:02:06.762, duration_ms=126762, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 12:38:41], mode=PLATFORM_GENERATION, duration=0:00:14.066, duration_ms=14066, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 12:38:41], mode=BUILD, duration=0:00:00.342, duration_ms=342, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-19 12:38:42], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-19 12:40:50], mode=PLATFORM_GENERATION, duration=0:01:55.468, duration_ms=115468, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 12:41:25], mode=BUILD, duration=0:00:34.016, duration_ms=34016, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-19 12:41:27], mode=BUILD, duration=0:00:01.796, duration_ms=1796, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-19 21:54:58], mode=WORKBENCH_START, duration=0:00:06.777, duration_ms=6777, data={}
+timestamp=[2026-02-19 21:54:59], mode=WORKBENCH_UI_INIT, duration=0:00:00.453, duration_ms=453, data={editors_count=22, platform_editors_count=9, projects_count=6, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-19 21:54:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.046, duration_ms=46, data={}
+timestamp=[2026-02-19 22:08:38], mode=PLATFORM_GENERATION, duration=0:00:12.640, duration_ms=12640, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:08:55], mode=PLATFORM_GENERATION, duration=0:00:01.566, duration_ms=1566, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:10:51], mode=PLATFORM_GENERATION, duration=0:01:54.869, duration_ms=114869, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:11:48], mode=PLATFORM_GENERATION, duration=0:00:12.030, duration_ms=12030, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:11:48], mode=BUILD, duration=0:00:00.263, duration_ms=263, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-19 22:14:20], mode=PLATFORM_GENERATION, duration=0:01:46.089, duration_ms=106089, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:14:53], mode=BUILD, duration=0:00:32.971, duration_ms=32971, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-19 22:16:25], mode=PLATFORM_GENERATION, duration=0:00:12.047, duration_ms=12047, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:16:25], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-19 22:16:25], mode=BUILD, duration=0:00:00.101, duration_ms=101, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-19 22:18:07], mode=PLATFORM_GENERATION, duration=0:01:39.699, duration_ms=99699, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:18:44], mode=BUILD, duration=0:00:37.400, duration_ms=37400, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-19 22:18:47], mode=BUILD, duration=0:00:01.805, duration_ms=1805, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-19 22:30:02], mode=PLATFORM_GENERATION, duration=0:00:12.477, duration_ms=12477, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:30:02], mode=BUILD, duration=0:00:00.232, duration_ms=232, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-19 22:30:02], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-19 22:30:14], mode=PLATFORM_GENERATION, duration=0:00:01.578, duration_ms=1578, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:30:14], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-19 22:30:15], mode=BUILD, duration=0:00:00.110, duration_ms=110, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-19 22:32:04], mode=PLATFORM_GENERATION, duration=0:01:48.105, duration_ms=108105, data={name=design_1_wrapperf}
+timestamp=[2026-02-19 22:32:38], mode=BUILD, duration=0:00:33.638, duration_ms=33638, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-19 22:32:40], mode=BUILD, duration=0:00:01.673, duration_ms=1673, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 11:36:20], mode=WORKBENCH_START, duration=0:00:09.180, duration_ms=9180, data={}
+timestamp=[2026-02-27 11:36:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.786, duration_ms=786, data={editors_count=22, platform_editors_count=9, projects_count=6, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-27 11:36:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.048, duration_ms=48, data={}
+timestamp=[2026-02-27 13:56:22], mode=PLATFORM_GENERATION, duration=0:00:12.605, duration_ms=12605, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 13:56:23], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 13:56:23], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 13:59:37], mode=PLATFORM_GENERATION, duration=0:02:05.282, duration_ms=125282, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 14:00:13], mode=BUILD, duration=0:00:36.112, duration_ms=36112, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 14:00:14], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 14:00:15], mode=BUILD, duration=0:00:01.761, duration_ms=1761, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 14:23:32], mode=PLATFORM_GENERATION, duration=0:00:12.697, duration_ms=12697, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 14:23:32], mode=BUILD, duration=0:00:00.188, duration_ms=188, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 14:23:32], mode=BUILD, duration=0:00:00.100, duration_ms=100, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 14:26:16], mode=PLATFORM_GENERATION, duration=0:01:49.284, duration_ms=109284, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 14:26:52], mode=BUILD, duration=0:00:35.618, duration_ms=35618, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 14:26:54], mode=BUILD, duration=0:00:01.633, duration_ms=1633, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 14:56:20], mode=PLATFORM_GENERATION, duration=0:00:13.152, duration_ms=13152, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 14:56:20], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 14:56:21], mode=BUILD, duration=0:00:00.163, duration_ms=163, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 14:58:07], mode=PLATFORM_GENERATION, duration=0:01:44.021, duration_ms=104021, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 14:58:43], mode=BUILD, duration=0:00:35.178, duration_ms=35178, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 14:58:45], mode=BUILD, duration=0:00:01.534, duration_ms=1534, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 15:11:11], mode=PLATFORM_GENERATION, duration=0:00:59.371, duration_ms=59371, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 15:11:12], mode=BUILD, duration=0:00:00.431, duration_ms=431, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 15:11:12], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 15:12:23], mode=PLATFORM_GENERATION, duration=0:00:12.384, duration_ms=12384, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 15:12:24], mode=BUILD, duration=0:00:00.250, duration_ms=250, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 15:12:24], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 15:14:35], mode=PLATFORM_GENERATION, duration=0:01:48.076, duration_ms=108076, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 15:15:09], mode=BUILD, duration=0:00:33.246, duration_ms=33246, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 15:15:11], mode=BUILD, duration=0:00:01.515, duration_ms=1515, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 15:37:14], mode=PLATFORM_GENERATION, duration=0:00:12.426, duration_ms=12426, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 15:37:14], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 15:37:14], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 15:39:20], mode=PLATFORM_GENERATION, duration=0:01:53.278, duration_ms=113278, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 15:39:59], mode=BUILD, duration=0:00:38.653, duration_ms=38653, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 15:40:01], mode=BUILD, duration=0:00:01.667, duration_ms=1667, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 16:19:46], mode=PLATFORM_GENERATION, duration=0:00:12.922, duration_ms=12922, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 16:19:46], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 16:19:46], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 16:23:24], mode=PLATFORM_GENERATION, duration=0:01:53.059, duration_ms=113059, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 16:24:02], mode=BUILD, duration=0:00:37.248, duration_ms=37248, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 16:24:04], mode=BUILD, duration=0:00:01.506, duration_ms=1506, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 16:33:34], mode=PLATFORM_GENERATION, duration=0:00:12.618, duration_ms=12618, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 16:33:34], mode=BUILD, duration=0:00:00.249, duration_ms=249, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 16:33:34], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 16:37:26], mode=PLATFORM_GENERATION, duration=0:01:50.664, duration_ms=110664, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 16:38:03], mode=BUILD, duration=0:00:36.576, duration_ms=36576, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 16:38:05], mode=BUILD, duration=0:00:01.631, duration_ms=1631, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 16:54:44], mode=PLATFORM_GENERATION, duration=0:00:12.883, duration_ms=12883, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 16:54:44], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 16:54:44], mode=BUILD, duration=0:00:00.175, duration_ms=175, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 16:57:14], mode=PLATFORM_GENERATION, duration=0:01:53.795, duration_ms=113795, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 16:57:51], mode=BUILD, duration=0:00:36.688, duration_ms=36688, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 16:57:53], mode=BUILD, duration=0:00:01.692, duration_ms=1692, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 19:44:16], mode=PLATFORM_GENERATION, duration=0:00:13.548, duration_ms=13548, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 19:44:16], mode=BUILD, duration=0:00:00.263, duration_ms=263, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 19:44:17], mode=BUILD, duration=0:00:00.145, duration_ms=145, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 19:46:40], mode=PLATFORM_GENERATION, duration=0:01:59.435, duration_ms=119435, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 19:47:17], mode=BUILD, duration=0:00:36.488, duration_ms=36488, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 19:47:19], mode=BUILD, duration=0:00:01.701, duration_ms=1701, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 20:56:04], mode=PLATFORM_GENERATION, duration=0:00:12.648, duration_ms=12648, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 20:56:04], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 20:56:04], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 20:57:59], mode=PLATFORM_GENERATION, duration=0:01:48.022, duration_ms=108022, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 20:58:35], mode=BUILD, duration=0:00:36.436, duration_ms=36436, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 20:58:37], mode=BUILD, duration=0:00:01.742, duration_ms=1742, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 21:14:16], mode=PLATFORM_GENERATION, duration=0:00:12.806, duration_ms=12806, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 21:14:16], mode=BUILD, duration=0:00:00.209, duration_ms=209, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 21:14:17], mode=BUILD, duration=0:00:00.128, duration_ms=128, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 21:16:01], mode=PLATFORM_GENERATION, duration=0:01:42.081, duration_ms=102081, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 21:16:35], mode=BUILD, duration=0:00:33.672, duration_ms=33672, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 21:16:37], mode=BUILD, duration=0:00:01.548, duration_ms=1548, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 21:32:35], mode=PLATFORM_GENERATION, duration=0:00:12.577, duration_ms=12577, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 21:32:35], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 21:32:35], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 21:34:21], mode=PLATFORM_GENERATION, duration=0:01:42.546, duration_ms=102546, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 21:34:55], mode=BUILD, duration=0:00:33.505, duration_ms=33505, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 21:34:57], mode=BUILD, duration=0:00:01.584, duration_ms=1584, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 21:49:00], mode=PLATFORM_GENERATION, duration=0:00:12.572, duration_ms=12572, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 21:49:01], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 21:49:01], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 21:51:07], mode=PLATFORM_GENERATION, duration=0:01:50.018, duration_ms=110018, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 21:51:41], mode=BUILD, duration=0:00:33.885, duration_ms=33885, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 21:51:43], mode=BUILD, duration=0:00:01.650, duration_ms=1650, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 22:09:49], mode=PLATFORM_GENERATION, duration=0:00:12.617, duration_ms=12617, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 22:09:49], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 22:09:50], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 22:11:38], mode=PLATFORM_GENERATION, duration=0:01:45.192, duration_ms=105192, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 22:12:13], mode=BUILD, duration=0:00:34.585, duration_ms=34585, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 22:12:15], mode=BUILD, duration=0:00:01.671, duration_ms=1671, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 22:38:28], mode=PLATFORM_GENERATION, duration=0:00:12.551, duration_ms=12551, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 22:38:28], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 22:38:28], mode=BUILD, duration=0:00:00.222, duration_ms=222, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 22:40:14], mode=PLATFORM_GENERATION, duration=0:01:43.421, duration_ms=103421, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 22:40:48], mode=BUILD, duration=0:00:34.209, duration_ms=34209, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 22:40:51], mode=BUILD, duration=0:00:01.639, duration_ms=1639, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 23:26:54], mode=PLATFORM_GENERATION, duration=0:00:12.525, duration_ms=12525, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 23:26:54], mode=BUILD, duration=0:00:00.264, duration_ms=264, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 23:26:54], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 23:28:42], mode=PLATFORM_GENERATION, duration=0:01:43.356, duration_ms=103356, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 23:29:17], mode=BUILD, duration=0:00:34.366, duration_ms=34366, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 23:29:19], mode=BUILD, duration=0:00:01.651, duration_ms=1651, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 23:30:08], mode=PLATFORM_GENERATION, duration=0:00:12.803, duration_ms=12803, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 23:30:08], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=libapp, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 23:30:08], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=r5app, configuration=Debug, clean_build=true}
+timestamp=[2026-02-27 23:31:55], mode=PLATFORM_GENERATION, duration=0:01:44.265, duration_ms=104265, data={name=design_1_wrapperf}
+timestamp=[2026-02-27 23:32:30], mode=BUILD, duration=0:00:34.438, duration_ms=34438, data={name=libapp, configuration=Debug, clean_build=false}
+timestamp=[2026-02-27 23:32:32], mode=BUILD, duration=0:00:01.594, duration_ms=1594, data={name=r5app, configuration=Debug, clean_build=false}
+timestamp=[2026-02-28 11:26:16], mode=WORKBENCH_START, duration=0:00:07.168, duration_ms=7168, data={}
+timestamp=[2026-02-28 11:26:16], mode=WORKBENCH_UI_INIT, duration=0:00:00.684, duration_ms=684, data={editors_count=24, platform_editors_count=9, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapperf,libapp,libapp_system,r5app,r5app_system}
+timestamp=[2026-02-28 11:26:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.054, duration_ms=54, data={}

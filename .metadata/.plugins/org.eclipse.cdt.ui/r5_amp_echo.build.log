@@ -1,0 +1,49 @@
+00:37:22 **** Build of configuration Debug for project r5_amp_echo ****
+make all 
+'Building file: ../src/helper.c'
+'Invoking: ARM R5 gcc compiler'
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helper.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/helper.d" -MT"src/helper.o" -o "src/helper.o" "../src/helper.c"
+'Finished building: ../src/helper.c'
+' '
+'Building file: ../src/platform_info.c'
+'Invoking: ARM R5 gcc compiler'
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_info.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform_info.d" -MT"src/platform_info.o" -o "src/platform_info.o" "../src/platform_info.c"
+'Finished building: ../src/platform_info.c'
+' '
+'Building file: ../src/rpmsg-echo.c'
+'Invoking: ARM R5 gcc compiler'
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rpmsg-echo.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/rpmsg-echo.d" -MT"src/rpmsg-echo.o" -o "src/rpmsg-echo.o" "../src/rpmsg-echo.c"
+'Finished building: ../src/rpmsg-echo.c'
+' '
+'Building file: ../src/rsc_table.c'
+'Invoking: ARM R5 gcc compiler'
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/rsc_table.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/rsc_table.d" -MT"src/rsc_table.o" -o "src/rsc_table.o" "../src/rsc_table.c"
+../src/rsc_table.c:11: warning: "VIRTIO_RPMSG_F_NS" redefined
+   11 | #define VIRTIO_RPMSG_F_NS           1  /* 启用 namespace announcement */
+      | 
+In file included from D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/standalone_domain/bspinclude/include/openamp/open_amp.h:12,
+                 from ../src/rsc_table.c:2:
+D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/standalone_domain/bspinclude/include/openamp/rpmsg_virtio.h:30: note: this is the location of the previous definition
+   30 | #define VIRTIO_RPMSG_F_NS 0 /* RP supports name service notifications */
+      | 
+'Finished building: ../src/rsc_table.c'
+' '
+'Building file: ../src/zynqmp_r5_a53_rproc.c'
+'Invoking: ARM R5 gcc compiler'
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/zynqmp_r5_a53_rproc.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/zynqmp_r5_a53_rproc.d" -MT"src/zynqmp_r5_a53_rproc.o" -o "src/zynqmp_r5_a53_rproc.o" "../src/zynqmp_r5_a53_rproc.c"
+'Finished building: ../src/zynqmp_r5_a53_rproc.c'
+' '
+'Building target: r5_amp_echo.elf'
+'Invoking: ARM R5 gcc linker'
+armr5-none-eabi-gcc -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16 -Wl,-T -Wl,../src/lscript.ld -LD:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/sw/amp_plat/standalone_domain/bsplib/lib -o "r5_amp_echo.elf"  ./src/helper.o ./src/platform_info.o ./src/rpmsg-echo.o ./src/rsc_table.o ./src/zynqmp_r5_a53_rproc.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lmetal,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-lmetal,-lopen_amp,-lgcc,-lc,--end-group
+'Finished building target: r5_amp_echo.elf'
+' '
+'Invoking: ARM R5 Print Size'
+armr5-none-eabi-size r5_amp_echo.elf  |tee "r5_amp_echo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73764	   4672	  32976	 111412	  1b334	r5_amp_echo.elf
+'Finished building: r5_amp_echo.elf.size'
+' '
+
+00:37:24 Build Finished (took 1s.840ms)
+

@@ -1,0 +1,245 @@
+20:45:50 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+20:45:50 INFO  : Registering command handlers for Vitis TCF services
+20:45:51 INFO  : Platform repository initialization has completed.
+20:45:52 INFO  : XSCT server has started successfully.
+20:45:52 INFO  : plnx-install-location is set to ''
+20:45:52 INFO  : Successfully done setting XSCT server connection channel  
+20:45:52 INFO  : Successfully done setting workspace for the tool. 
+20:45:52 INFO  : Successfully done query RDI_DATADIR 
+20:47:50 INFO  : Result from executing command 'getProjects': amp_plat
+20:47:50 INFO  : Result from executing command 'getPlatforms': 
+20:49:12 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
+20:51:05 INFO  : (SwPlatform)  Successfully done add_library 
+20:51:06 INFO  : (SwPlatform)  Successfully done add_library 
+20:51:20 INFO  : (SwPlatform) Successfully done update_mss 
+20:51:20 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
+20:52:39 INFO  : Result from executing command 'getProjects': amp_plat
+20:52:39 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+21:17:23 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+21:17:38 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+12:25:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+12:25:27 INFO  : XSCT server has started successfully.
+12:25:27 INFO  : plnx-install-location is set to ''
+12:25:27 INFO  : Successfully done setting XSCT server connection channel  
+12:25:27 INFO  : Successfully done setting workspace for the tool. 
+12:25:29 INFO  : Platform repository initialization has completed.
+12:25:29 INFO  : Registering command handlers for Vitis TCF services
+12:25:29 INFO  : Successfully done query RDI_DATADIR 
+12:30:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+12:31:01 INFO  : XSCT server has started successfully.
+12:31:01 INFO  : plnx-install-location is set to ''
+12:31:01 INFO  : Successfully done setting XSCT server connection channel  
+12:31:01 INFO  : Successfully done setting workspace for the tool. 
+12:31:05 INFO  : Registering command handlers for Vitis TCF services
+12:31:05 INFO  : Platform repository initialization has completed.
+12:31:05 INFO  : Successfully done query RDI_DATADIR 
+14:32:52 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+14:33:33 INFO  : Result from executing command 'getProjects': amp_plat
+14:33:33 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+14:33:33 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+15:02:55 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+15:02:57 INFO  : XSCT server has started successfully.
+15:02:57 INFO  : Successfully done setting XSCT server connection channel  
+15:02:57 INFO  : plnx-install-location is set to ''
+15:02:57 INFO  : Successfully done setting workspace for the tool. 
+15:02:59 INFO  : Platform repository initialization has completed.
+15:02:59 INFO  : Registering command handlers for Vitis TCF services
+15:03:00 INFO  : Successfully done query RDI_DATADIR 
+15:12:35 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+15:13:15 INFO  : Result from executing command 'getProjects': amp_plat
+15:13:15 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+15:13:15 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+15:28:24 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+15:28:59 INFO  : Result from executing command 'getProjects': amp_plat
+15:28:59 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+15:28:59 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+16:54:54 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+16:54:54 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+16:55:37 INFO  : Result from executing command 'getProjects': amp_plat
+16:55:37 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+16:55:38 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+16:59:31 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+17:00:07 INFO  : Result from executing command 'getProjects': amp_plat
+17:00:07 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+17:00:07 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+17:04:14 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+17:04:50 INFO  : Result from executing command 'getProjects': amp_plat
+17:04:50 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+17:04:50 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+18:46:44 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+18:46:46 INFO  : XSCT server has started successfully.
+18:46:46 INFO  : plnx-install-location is set to ''
+18:46:46 INFO  : Successfully done setting XSCT server connection channel  
+18:46:46 INFO  : Successfully done setting workspace for the tool. 
+18:46:48 INFO  : Platform repository initialization has completed.
+18:46:48 INFO  : Registering command handlers for Vitis TCF services
+18:46:48 INFO  : Successfully done query RDI_DATADIR 
+11:55:50 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+11:55:52 INFO  : XSCT server has started successfully.
+11:55:52 INFO  : plnx-install-location is set to ''
+11:55:52 INFO  : Successfully done setting XSCT server connection channel  
+11:55:52 INFO  : Successfully done setting workspace for the tool. 
+11:55:55 INFO  : Platform repository initialization has completed.
+11:55:55 INFO  : Registering command handlers for Vitis TCF services
+11:55:56 INFO  : Successfully done query RDI_DATADIR 
+11:59:37 INFO  : Result from executing command 'getProjects': amp_plat
+11:59:37 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+11:59:38 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+18:34:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+18:34:20 INFO  : XSCT server has started successfully.
+18:34:20 INFO  : Successfully done setting XSCT server connection channel  
+18:34:20 INFO  : plnx-install-location is set to ''
+18:34:20 INFO  : Successfully done setting workspace for the tool. 
+18:34:23 INFO  : Platform repository initialization has completed.
+18:34:23 INFO  : Registering command handlers for Vitis TCF services
+18:34:23 INFO  : Successfully done query RDI_DATADIR 
+18:44:52 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+18:45:34 INFO  : Result from executing command 'getProjects': amp_plat
+18:45:34 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+18:45:35 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+19:01:29 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+19:01:43 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+19:03:01 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+19:03:03 INFO  : XSCT server has started successfully.
+19:03:03 INFO  : Successfully done setting XSCT server connection channel  
+19:03:03 INFO  : plnx-install-location is set to ''
+19:03:03 INFO  : Successfully done setting workspace for the tool. 
+19:03:06 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+19:03:06 INFO  : Platform repository initialization has completed.
+19:03:06 INFO  : Registering command handlers for Vitis TCF services
+19:03:06 INFO  : Successfully done query RDI_DATADIR 
+19:05:32 INFO  : Result from executing command 'getProjects': amp_plat
+19:05:32 INFO  : Result from executing command 'getPlatforms': 
+19:05:32 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+21:09:38 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+21:10:19 INFO  : Result from executing command 'getProjects': amp_plat
+21:10:19 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+21:10:19 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+09:42:19 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+09:42:21 INFO  : XSCT server has started successfully.
+09:42:21 INFO  : plnx-install-location is set to ''
+09:42:21 INFO  : Successfully done setting XSCT server connection channel  
+09:42:21 INFO  : Successfully done setting workspace for the tool. 
+09:42:23 INFO  : Registering command handlers for Vitis TCF services
+09:42:23 INFO  : Platform repository initialization has completed.
+09:42:24 INFO  : Successfully done query RDI_DATADIR 
+09:42:55 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
+09:43:35 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
+09:43:35 INFO  : No changes in MSS file content so sources will not be generated.
+09:44:54 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
+09:44:54 INFO  : No changes in MSS file content so sources will not be generated.
+09:50:59 INFO  : Result from executing command 'getProjects': amp_plat
+09:50:59 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+09:50:59 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+13:14:27 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+13:14:29 INFO  : XSCT server has started successfully.
+13:14:29 INFO  : Successfully done setting XSCT server connection channel  
+13:14:29 INFO  : plnx-install-location is set to ''
+13:14:29 INFO  : Successfully done setting workspace for the tool. 
+13:14:32 INFO  : Registering command handlers for Vitis TCF services
+13:14:32 INFO  : Platform repository initialization has completed.
+13:14:33 INFO  : Successfully done query RDI_DATADIR 
+23:41:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+23:41:36 INFO  : XSCT server has started successfully.
+23:41:36 INFO  : Successfully done setting XSCT server connection channel  
+23:41:36 INFO  : plnx-install-location is set to ''
+23:41:36 INFO  : Successfully done setting workspace for the tool. 
+23:41:39 INFO  : Registering command handlers for Vitis TCF services
+23:41:39 INFO  : Platform repository initialization has completed.
+23:41:40 INFO  : Successfully done query RDI_DATADIR 
+23:01:11 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+23:01:14 INFO  : XSCT server has started successfully.
+23:01:14 INFO  : Successfully done setting XSCT server connection channel  
+23:01:14 INFO  : plnx-install-location is set to ''
+23:01:14 INFO  : Successfully done setting workspace for the tool. 
+23:01:16 INFO  : Registering command handlers for Vitis TCF services
+23:01:16 INFO  : Platform repository initialization has completed.
+23:01:17 INFO  : Successfully done query RDI_DATADIR 
+23:04:01 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+23:04:34 INFO  : Result from executing command 'getProjects': amp_plat
+23:04:34 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+23:04:34 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+00:36:33 ERROR : Failed to openhw "D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/hw/completeHW.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+00:37:17 INFO  : Result from executing command 'getProjects': amp_plat
+00:37:17 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+00:37:17 INFO  : Checking for BSP changes to sync application flags for project 'r5_amp_echo'...
+15:12:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+15:12:02 INFO  : XSCT server has started successfully.
+15:12:02 INFO  : Successfully done setting XSCT server connection channel  
+15:12:02 INFO  : plnx-install-location is set to ''
+15:12:02 INFO  : Successfully done setting workspace for the tool. 
+15:12:04 INFO  : Platform repository initialization has completed.
+15:12:04 INFO  : Successfully done query RDI_DATADIR 
+15:12:05 INFO  : Registering command handlers for Vitis TCF services
+18:31:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+18:31:48 INFO  : XSCT server has started successfully.
+18:31:48 INFO  : plnx-install-location is set to ''
+18:31:48 INFO  : Successfully done setting XSCT server connection channel  
+18:31:48 INFO  : Successfully done setting workspace for the tool. 
+18:31:50 INFO  : Registering command handlers for Vitis TCF services
+18:31:50 INFO  : Platform repository initialization has completed.
+18:31:50 INFO  : Successfully done query RDI_DATADIR 
+22:26:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+22:26:28 INFO  : XSCT server has started successfully.
+22:26:28 INFO  : plnx-install-location is set to ''
+22:26:28 INFO  : Successfully done setting XSCT server connection channel  
+22:26:28 INFO  : Successfully done setting workspace for the tool. 
+22:26:30 INFO  : Registering command handlers for Vitis TCF services
+22:26:30 INFO  : Platform repository initialization has completed.
+22:26:30 INFO  : Successfully done query RDI_DATADIR 
+22:27:43 INFO  : Result from executing command 'getProjects': amp_plat
+22:27:43 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+13:54:13 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\temp_xsdb_launch_script.tcl
+13:54:15 INFO  : XSCT server has started successfully.
+13:54:15 INFO  : plnx-install-location is set to ''
+13:54:15 INFO  : Successfully done setting XSCT server connection channel  
+13:54:15 INFO  : Successfully done setting workspace for the tool. 
+13:54:18 INFO  : Platform repository initialization has completed.
+13:54:18 INFO  : Successfully done query RDI_DATADIR 
+13:54:18 INFO  : Registering command handlers for Vitis TCF services
+13:55:56 INFO  : Result from executing command 'getProjects': amp_plat
+13:55:56 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+14:22:35 INFO  : Result from executing command 'getProjects': amp_plat
+14:22:35 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+20:46:28 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
+20:46:42 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
+20:46:42 INFO  : No changes in MSS file content so sources will not be generated.
+20:48:43 INFO  : (SwPlaform) Successfully done setParamInSpec 
+20:51:01 INFO  : (SwPlaform) Successfully done setParamInSpec 
+20:51:11 INFO  : (SwPlaform) Successfully done setParamInSpec 
+20:51:17 INFO  : (SwPlaform) Successfully done setParamInSpec 
+20:51:20 INFO  : (SwPlatform) Successfully done update_mss 
+20:51:21 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
+20:52:36 INFO  : Result from executing command 'getProjects': amp_plat
+20:52:36 INFO  : Result from executing command 'getPlatforms': amp_plat|D:/files/VitisProject/demoAmp/amp_plat/export/amp_plat/amp_plat.xpfm
+22:37:40 INFO  : Successfully done sdx_reload_mss "D:/files/VitisProject/demoAmp/amp_plat/psu_cortexr5_0/standalone_domain/bsp/system.mss"
+22:37:40 INFO  : No changes in MSS file content so sources will not be generated.
