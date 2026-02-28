@@ -59,7 +59,8 @@ volatile uint32_t *heartbeat_ptr = (volatile uint32_t *)HEARTBEAT_ADDR;
 volatile uint32_t *diag_ptr      = (volatile uint32_t *)DIAG_ADDR;
 
 /* Xilinx hardware instances */
-static XScuGic          InterruptController;
+//static XScuGic          InterruptController;
+XScuGic          InterruptController;
 static XTtcPs           TimerInstance;
 
 /* OpenAMP variables */
@@ -589,13 +590,53 @@ void tx_application_define(void *first_unused_memory)
 //    /* ThreadX 启动后接管 CPU，永远不会执行到这里 */
 //    return 0;
 //}
+//int main()
+//{
+//    /* 1. 探针证明进入 main，并立刻刷入物理内存 */
+//    *heartbeat_ptr = 0xDEADBEE1;
+//    Xil_DCacheFlushRange((UINTPTR)heartbeat_ptr, 4);
+//
+//    /* 2. 手工复制中断向量表到 TCM (0x0)，这一步已经被你证明完美生效！ */
+//    extern u32 _vector_table;
+//    volatile u32 *src = (volatile u32 *)&_vector_table;
+//    volatile u32 *dst = (volatile u32 *)0x0;
+//    for (int i = 0; i < 16; i++) {
+//        dst[i] = src[i];
+//    }
+//    __asm__ volatile("dsb");
+//    __asm__ volatile("isb");
+//
+//    /* 3. 【终极解药】：手动开启 R5 的硬件 FPU (协处理器 CP10 和 CP11)
+//     * 没有这一步，ThreadX 一调度就会触发 0xdb 未定义指令异常死机！ */
+//    __asm__ volatile(
+//        "mrc p15, 0, r0, c1, c0, 2 \n" // 读取 CPACR 寄存器
+//        "orr r0, r0, #(0xF << 20)  \n" // 授予 CP10 和 CP11 满权限
+//        "mcr p15, 0, r0, c1, c0, 2 \n" // 写回 CPACR
+//        "isb                       \n"
+//        "vmrs r0, fpexc            \n" // 读取 FPEXC 寄存器
+//        "orr r0, r0, #(1<<30)      \n" // 设置 EN (开启) 位
+//        "vmsr fpexc, r0            \n" // 写回 FPEXC
+//        : : : "r0"
+//    );
+//
+//    /* 4. 恢复定时器中断 (ThreadX 需要它来推动线程调度和休眠) */
+//    setup_timer_interrupt();
+//
+//    /* 5. 证明我们活着走出了所有的硬件坑！ */
+//    *heartbeat_ptr = 0xDEADBEE2;
+//    Xil_DCacheFlushRange((UINTPTR)heartbeat_ptr, 4);
+//
+//    /* 6. 启动 ThreadX 调度器 */
+//    tx_kernel_enter();
+//
+//    return 0;
+//}
+
 int main()
 {
-    /* 1. 探针证明进入 main，并立刻刷入物理内存 */
     *heartbeat_ptr = 0xDEADBEE1;
-    Xil_DCacheFlushRange((UINTPTR)heartbeat_ptr, 4);
 
-    /* 2. 手工复制中断向量表到 TCM (0x0)，这一步已经被你证明完美生效！ */
+    /* 1. 手工复制中断向量表到 TCM (0x0) */
     extern u32 _vector_table;
     volatile u32 *src = (volatile u32 *)&_vector_table;
     volatile u32 *dst = (volatile u32 *)0x0;
@@ -605,27 +646,27 @@ int main()
     __asm__ volatile("dsb");
     __asm__ volatile("isb");
 
-    /* 3. 【终极解药】：手动开启 R5 的硬件 FPU (协处理器 CP10 和 CP11)
-     * 没有这一步，ThreadX 一调度就会触发 0xdb 未定义指令异常死机！ */
+    /* 2. 开启 FPU (防止线程切换和 memcpy 时因为浮点指令抛异常死机) */
     __asm__ volatile(
-        "mrc p15, 0, r0, c1, c0, 2 \n" // 读取 CPACR 寄存器
-        "orr r0, r0, #(0xF << 20)  \n" // 授予 CP10 和 CP11 满权限
-        "mcr p15, 0, r0, c1, c0, 2 \n" // 写回 CPACR
+        "mrc p15, 0, r0, c1, c0, 2 \n"
+        "orr r0, r0, #(0xF << 20)  \n"
+        "mcr p15, 0, r0, c1, c0, 2 \n"
         "isb                       \n"
-        "vmrs r0, fpexc            \n" // 读取 FPEXC 寄存器
-        "orr r0, r0, #(1<<30)      \n" // 设置 EN (开启) 位
-        "vmsr fpexc, r0            \n" // 写回 FPEXC
+        "vmrs r0, fpexc            \n"
+        "orr r0, r0, #(1<<30)      \n"
+        "vmsr fpexc, r0            \n"
         : : : "r0"
     );
 
-    /* 4. 恢复定时器中断 (ThreadX 需要它来推动线程调度和休眠) */
+    /* 3. 初始化平台 (MPU, Cache, UART) */
+    init_platform();
+
+    /* 4. 【救命补丁】：初始化 GIC 和 ThreadX 心跳定时器！没有它系统必睡死！ */
     setup_timer_interrupt();
 
-    /* 5. 证明我们活着走出了所有的硬件坑！ */
     *heartbeat_ptr = 0xDEADBEE2;
-    Xil_DCacheFlushRange((UINTPTR)heartbeat_ptr, 4);
 
-    /* 6. 启动 ThreadX 调度器 */
+    /* 5. 启动 ThreadX 调度器 */
     tx_kernel_enter();
 
     return 0;

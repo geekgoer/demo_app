@@ -1,8 +1,11 @@
-17:44:00 **** Build of configuration Debug for project r5app ****
+18:12:50 **** Build of configuration Debug for project r5app ****
 make all 
 'Building file: ../src/helper.c'
 'Invoking: ARM R5 gcc compiler'
 armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/helper.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/helper.d" -MT"src/helper.o" -o "src/helper.o" "../src/helper.c"
+../src/helper.c:23:16: warning: 'xInterruptController' defined but not used [-Wunused-variable]
+   23 | static XScuGic xInterruptController;
+      |                ^~~~~~~~~~~~~~~~~~~~
 'Finished building: ../src/helper.c'
 ' '
 'Building file: ../src/platform.c'
@@ -32,8 +35,8 @@ D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_do
 'Invoking: ARM R5 gcc compiler'
 armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/threadx_amp_demo.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/threadx_amp_demo.d" -MT"src/threadx_amp_demo.o" -o "src/threadx_amp_demo.o" "../src/threadx_amp_demo.c"
 ../src/threadx_amp_demo.c: In function 'timer_interrupt_handler':
-../src/threadx_amp_demo.c:248:9: warning: variable 'StatusEvent' set but not used [-Wunused-but-set-variable]
-  248 |     u32 StatusEvent;
+../src/threadx_amp_demo.c:249:9: warning: variable 'StatusEvent' set but not used [-Wunused-but-set-variable]
+  249 |     u32 StatusEvent;
       |         ^~~~~~~~~~~
 'Finished building: ../src/threadx_amp_demo.c'
 ' '
@@ -50,9 +53,9 @@ armr5-none-eabi-gcc -L"D:\files\VitisProject\demoAmp\amp_plat\psu_cortexr5_0\sta
 'Invoking: ARM R5 Print Size'
 armr5-none-eabi-size r5app.elf  |tee "r5app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  95911	   4916	 128272	 229099	  37eeb	r5app.elf
+  95383	   4916	 128288	 228587	  37ceb	r5app.elf
 'Finished building: r5app.elf.size'
 ' '
 
-17:44:01 Build Finished (took 1s.517ms)
+18:12:52 Build Finished (took 1s.507ms)
 

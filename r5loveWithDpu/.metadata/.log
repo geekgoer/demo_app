@@ -1251,3 +1251,99 @@ java.lang.Error
 
 !ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 17:44:00.140
 !MESSAGE XSCT command with result: [::hsi::utils::closesw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Result: [null, ]. Thread: Worker-120: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:22.970
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss ], Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:22.984
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss ], Result: [null, ]. Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:22.984
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:22.987
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-02-28 18:05:22.987
+!MESSAGE Generating MD5 hash for file: D:\files\VitisProject\r5love\design_1_wrapperf\export\design_1_wrapperf\sw\design_1_wrapperf\domain_psu_cortexr5_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:22.989
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:22.989
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Result: [null, ]. Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:56.629
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss ], Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:56.632
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss ], Result: [null, ]. Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:56.632
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:56.637
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-02-28 18:05:56.637
+!MESSAGE Generating MD5 hash for file: D:\files\VitisProject\r5love\design_1_wrapperf\export\design_1_wrapperf\sw\design_1_wrapperf\domain_psu_cortexr5_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:56.638
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:05:56.640
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Result: [null, ]. Thread: Worker-129: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:17.145
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss ], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:17.150
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss ], Result: [null, ]. Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:17.151
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:17.166
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-02-28 18:12:17.167
+!MESSAGE Generating MD5 hash for file: D:\files\VitisProject\r5love\design_1_wrapperf\export\design_1_wrapperf\sw\design_1_wrapperf\domain_psu_cortexr5_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:17.168
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:17.169
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Result: [null, ]. Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:50.647
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss ], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:50.652
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss ], Result: [null, ]. Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:50.652
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:50.661
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/hw/design_1_wrapperf.xsa D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Result: [null, {"procname": "psu_cortexr5_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-02-28 18:12:50.661
+!MESSAGE Generating MD5 hash for file: D:\files\VitisProject\r5love\design_1_wrapperf\export\design_1_wrapperf\sw\design_1_wrapperf\domain_psu_cortexr5_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:50.663
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-02-28 18:12:50.664
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/system.mss], Result: [null, ]. Thread: Worker-134: Build Project
