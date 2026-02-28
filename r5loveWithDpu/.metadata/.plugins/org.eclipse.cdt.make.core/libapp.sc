@@ -7291,6 +7291,7 @@
             <includePath path="#undef __thumb__" removed="true"/>
             <includePath path="#undef __ARM_FP" removed="true"/>
             <includePath path="E:\Xilinx\Vitis\2020.1\gnu\armr5\nt\gcc-arm-none-eabi\bin\\..\armrm-xilinx-eabi/usr/include"/>
+            <includePath path="#undef __ARM_FEATURE_COPROC" removed="true"/>
             <includePath path="#undef __ARM_ASM_SYNTAX_UNIFIED__" removed="true"/>
             <includePath path="#undef __ARM_FEATURE_DSP" removed="true"/>
             <includePath path="#undef __ARM_ARCH_EXT_IDIV__" removed="true"/>

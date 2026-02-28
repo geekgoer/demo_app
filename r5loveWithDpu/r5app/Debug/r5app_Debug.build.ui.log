@@ -1,4 +1,4 @@
-2026-02-28T16:02:30.100878900255-16:02:30 **** Build of configuration Debug for project r5app ****
+2026-02-28T17:44:00.146673400255-17:44:00 **** Build of configuration Debug for project r5app ****
 000-make all 
 000-'Building file: ../src/helper.c'
 000-'Invoking: ARM R5 gcc compiler'
@@ -50,9 +50,9 @@
 000-'Invoking: ARM R5 Print Size'
 000-armr5-none-eabi-size r5app.elf  |tee "r5app.elf.size"
 000-   text	   data	    bss	    dec	    hex	filename
-000-  95719	   4916	 128272	 228907	  37e2b	r5app.elf
+000-  95911	   4916	 128272	 229099	  37eeb	r5app.elf
 000-'Finished building: r5app.elf.size'
 000-' '
 00255-
-16:02:31 Build Finished (took 1s.566ms)
+17:44:01 Build Finished (took 1s.517ms)
 
