@@ -1,4 +1,4 @@
-16:18:58 **** Build of configuration Debug for project r5app ****
+16:45:10 **** Build of configuration Debug for project r5app ****
 make all 
 'Building file: ../src/helper.c'
 'Invoking: ARM R5 gcc compiler'
@@ -31,8 +31,8 @@ D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_do
 'Building file: ../src/threadx_amp_demo.c'
 'Invoking: ARM R5 gcc compiler'
 armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/threadx_amp_demo.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/threadx_amp_demo.d" -MT"src/threadx_amp_demo.o" -o "src/threadx_amp_demo.o" "../src/threadx_amp_demo.c"
-../src/threadx_amp_demo.c:64:25: warning: 'TimerInstance' defined but not used [-Wunused-variable]
-   64 | static XTtcPs           TimerInstance;
+../src/threadx_amp_demo.c:65:25: warning: 'TimerInstance' defined but not used [-Wunused-variable]
+   65 | static XTtcPs           TimerInstance;
       |                         ^~~~~~~~~~~~~
 'Finished building: ../src/threadx_amp_demo.c'
 ' '
@@ -53,5 +53,5 @@ armr5-none-eabi-size r5app.elf  |tee "r5app.elf.size"
 'Finished building: r5app.elf.size'
 ' '
 
-16:18:59 Build Finished (took 1s.517ms)
+16:45:12 Build Finished (took 1s.506ms)
 

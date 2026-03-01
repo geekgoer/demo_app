@@ -1,6 +1,6 @@
-16:16:42 **** Build of project design_1_wrapperf ****
+16:42:56 **** Build of project design_1_wrapperf ****
 buildplatform.bat 4780 design_1_wrapperf  
-XSDB Server Channel: tcfchan#14
+XSDB Server Channel: tcfchan#16
 Building the zynqmp_fsbl application.
 make -C zynqmp_fsbl_bsp
 
@@ -3554,7 +3554,7 @@ Reason: Failed to generate the  zynqmp_fsbl application.
     set arglen [llength $argv]
     set lastind..."
     (file "E:/Xilinx/Vitis/2020.1\scripts\vitis\util\buildplatform.tcl" line 11)
-16:18:23 **** Build of configuration Debug for project libapp ****
+16:44:37 **** Build of configuration Debug for project libapp ****
 make all 
 'Building file: ../src/threadx/ports/tx_initialize_low_level.S'
 'Invoking: ARM R5 gcc compiler'
@@ -4779,7 +4779,7 @@ armr5-none-eabi-size libapp.a  |tee "libapp.a.size"
     144	      0	      0	    144	     90	txe_timer_info_get.o (ex libapp.a)
 'Finished building: libapp.a.size'
 ' '
-16:18:58 **** Build of configuration Debug for project r5app ****
+16:45:10 **** Build of configuration Debug for project r5app ****
 make all 
 'Building file: ../src/helper.c'
 'Invoking: ARM R5 gcc compiler'
@@ -4812,8 +4812,8 @@ D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_do
 'Building file: ../src/threadx_amp_demo.c'
 'Invoking: ARM R5 gcc compiler'
 armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/threadx_amp_demo.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/threadx_amp_demo.d" -MT"src/threadx_amp_demo.o" -o "src/threadx_amp_demo.o" "../src/threadx_amp_demo.c"
-../src/threadx_amp_demo.c:64:25: warning: 'TimerInstance' defined but not used [-Wunused-variable]
-   64 | static XTtcPs           TimerInstance;
+../src/threadx_amp_demo.c:65:25: warning: 'TimerInstance' defined but not used [-Wunused-variable]
+   65 | static XTtcPs           TimerInstance;
       |                         ^~~~~~~~~~~~~
 'Finished building: ../src/threadx_amp_demo.c'
 ' '

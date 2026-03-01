@@ -28,7 +28,8 @@
 #define RPMSG_STACK_SIZE        4096
 #define DEMO_BYTE_POOL_SIZE     32768
 #define DEMO_PRIORITY           10
-#define RPMSG_PRIORITY          5
+//#define RPMSG_PRIORITY          5   TODO
+#define RPMSG_PRIORITY          10
 
 /* Timer defines */
 #define TTC_DEVICE_ID           XPAR_XTTCPS_0_DEVICE_ID
@@ -166,8 +167,12 @@ int rpmsg_app_init(void)
 //						   rpmsg_endpoint_cb,
 //						   rpmsg_service_unbind);
     /* Create RPMsg endpoint */
-        ret = rpmsg_create_ept(&lept, rpdev_global, "rpmsg-chrdev",
-                               50, RPMSG_ADDR_ANY,    /* <--- 把源地址写成 50！ */
+//        ret = rpmsg_create_ept(&lept, rpdev_global, "rpmsg-chrdev",
+//                               50, RPMSG_ADDR_ANY,    /* <--- 把源地址写成 50！ */
+//                               rpmsg_endpoint_cb,
+//                               rpmsg_service_unbind);
+    ret = rpmsg_create_ept(&lept, rpdev_global, "rpmsg-raw", /* <--- 暗号改成 rpmsg-raw */
+                               50, RPMSG_ADDR_ANY,
                                rpmsg_endpoint_cb,
                                rpmsg_service_unbind);
     if (ret) {

@@ -1,6 +1,6 @@
-2026-03-01T16:16:42.073966900255-16:16:42 **** Build of project design_1_wrapperf ****
+2026-03-01T16:42:56.47983500255-16:42:56 **** Build of project design_1_wrapperf ****
 000-buildplatform.bat 4780 design_1_wrapperf  
-000-XSDB Server Channel: tcfchan#14
+000-XSDB Server Channel: tcfchan#16
 000-Building the zynqmp_fsbl application.
 000-make -C zynqmp_fsbl_bsp
 000-
@@ -3555,5 +3555,5 @@
 000-    set lastind..."
 000-    (file "E:/Xilinx/Vitis/2020.1\scripts\vitis\util\buildplatform.tcl" line 11)
 00255-
-16:18:23 Build Finished (took 1m:41s.403ms)
+16:44:36 Build Finished (took 1m:40s.367ms)
 
