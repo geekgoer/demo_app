@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item value="&quot;D:\files\VitisProject\r5love\r5app\src\threadx\inc&quot;" key="org.eclipse.cdt.utils.ui.controls.FileListControl"/>
+	<section name="org.eclipse.cdt.ui.OPEN_ACTION_SELECTION_DIALOG_SECTION">
+		<item value="745" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|8.765218|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="573" key="DIALOG_HEIGHT"/>
+		<item value="738" key="DIALOG_X_ORIGIN"/>
+		<item value="138" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>
 	<section name="OptionalMessageDialog.hide.">

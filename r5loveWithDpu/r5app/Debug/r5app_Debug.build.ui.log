@@ -1,11 +1,8 @@
-2026-02-28T18:12:50.670918200255-18:12:50 **** Build of configuration Debug for project r5app ****
+2026-03-01T16:18:58.349886600255-16:18:58 **** Build of configuration Debug for project r5app ****
 000-make all 
 000-'Building file: ../src/helper.c'
 000-'Invoking: ARM R5 gcc compiler'
 000-armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/helper.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/helper.d" -MT"src/helper.o" -o "src/helper.o" "../src/helper.c"
-000/r5app/src/helper.c23-1-1'xInterruptController' defined but not used [-Wunused-variable]1xInterruptController../src/helper.c:23:16: warning: 'xInterruptController' defined but not used [-Wunused-variable]
-000-   23 | static XScuGic xInterruptController;
-000-      |                ^~~~~~~~~~~~~~~~~~~~
 000-'Finished building: ../src/helper.c'
 000-' '
 000-'Building file: ../src/platform.c'
@@ -34,10 +31,9 @@
 000-'Building file: ../src/threadx_amp_demo.c'
 000-'Invoking: ARM R5 gcc compiler'
 000-armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/threadx_amp_demo.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/threadx_amp_demo.d" -MT"src/threadx_amp_demo.o" -o "src/threadx_amp_demo.o" "../src/threadx_amp_demo.c"
-000-../src/threadx_amp_demo.c: In function 'timer_interrupt_handler':
-000/r5app/src/threadx_amp_demo.c249-1-1variable 'StatusEvent' set but not used [-Wunused-but-set-variable]1-../src/threadx_amp_demo.c:249:9: warning: variable 'StatusEvent' set but not used [-Wunused-but-set-variable]
-000-  249 |     u32 StatusEvent;
-000-      |         ^~~~~~~~~~~
+000/r5app/src/threadx_amp_demo.c64-1-1'TimerInstance' defined but not used [-Wunused-variable]1TimerInstance../src/threadx_amp_demo.c:64:25: warning: 'TimerInstance' defined but not used [-Wunused-variable]
+000-   64 | static XTtcPs           TimerInstance;
+000-      |                         ^~~~~~~~~~~~~
 000-'Finished building: ../src/threadx_amp_demo.c'
 000-' '
 000-'Building file: ../src/zynqmp_r5_a53_rproc.c'
@@ -53,9 +49,9 @@
 000-'Invoking: ARM R5 Print Size'
 000-armr5-none-eabi-size r5app.elf  |tee "r5app.elf.size"
 000-   text	   data	    bss	    dec	    hex	filename
-000-  95383	   4916	 128288	 228587	  37ceb	r5app.elf
+000-  92223	   4740	 128280	 225243	  36fdb	r5app.elf
 000-'Finished building: r5app.elf.size'
 000-' '
 00255-
-18:12:52 Build Finished (took 1s.507ms)
+16:18:59 Build Finished (took 1s.517ms)
 

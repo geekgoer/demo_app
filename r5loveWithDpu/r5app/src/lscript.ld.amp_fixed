@@ -20,6 +20,8 @@ MEMORY
 {
    /* DDR: Single LOAD segment for remoteproc compatibility */
    psu_r5_ddr_amp : ORIGIN = 0x3ED00000, LENGTH = 0x01000000
+   /* TODO */
+   psu_r5_tcm_ram : ORIGIN = 0x00000000, LENGTH = 0x00010000
 }
 
 /* Specify the default entry point to the program */
