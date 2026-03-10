@@ -2,12 +2,15 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="timer_interrupt_handler" key="selection"/>
+		<item value="DEMO_PRIORITY" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="DEMO_PRIORITY"/>
+			<item value="failed"/>
+			<item value="pmsg-openamp-demo-channel"/>
 			<item value="timer_interrupt_handler"/>
 			<item value="setup_timer_interrupt"/>
 			<item value="rpmsg_endpoint_cb"/>
@@ -20,9 +23,6 @@
 			<item value="diag_ptr = 0xA0000001"/>
 			<item value="shutdown_req"/>
 			<item value="started"/>
-			<item value="RPMsg thread started"/>
-			<item value="init_syste"/>
-			<item value="PRINTF(format, ...)"/>
 		</list>
 		<list key="replacehistory">
 		</list>
