@@ -1,0 +1,10 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader, destination_cpu = a53-0]D:\files\VitisProject\demoAmp\r5loveWithDpu\output\zynqmp_fsbl.elf
+	[destination_cpu = pmu]D:\files\VitisProject\demoAmp\r5loveWithDpu\output\pmufw.elf
+	[destination_device = pl]D:\files\VitisProject\demoAmp\r5loveWithDpu\output\system.bit
+	[destination_cpu = a53-0, exception_level = el-3]D:\files\VitisProject\demoAmp\r5loveWithDpu\output\bl31.elf
+	[destination_cpu = r5-0]D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\Debug\r5app.elf
+	[destination_cpu = a53-0]D:\files\VitisProject\demoAmp\r5loveWithDpu\output\u-boot.elf
+}

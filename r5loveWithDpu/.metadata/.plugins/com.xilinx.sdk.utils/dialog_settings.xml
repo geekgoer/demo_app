@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="D:\files\VitisProject\demoAmp\r5loveWithDpu\output" key="bootgen_files_selection"/>
 	<item value="F:\Vitis-AI-1.1\vivado4" key="scw_hwspec_file_selection"/>
 	<item value="E:\BaiduNetdiskDownload\AXU3EG\course_s2\18_freertos\vitis" key="scw_hwspec"/>
 </section>

@@ -1251,3 +1251,24 @@ ERROR: [Hsi 55-1403] D:/files/VitisProject/demoAmp/r5loveWithDpu/design_1_wrappe
 16:18:58 INFO  : Checking for BSP changes to sync application flags for project 'r5app'...
 16:44:36 INFO  : Checking for BSP changes to sync application flags for project 'libapp'...
 16:45:10 INFO  : Checking for BSP changes to sync application flags for project 'r5app'...
+15:31:11 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\r5loveWithDpu\temp_xsdb_launch_script.tcl
+15:31:13 INFO  : XSCT server has started successfully.
+15:31:13 INFO  : plnx-install-location is set to ''
+15:31:13 INFO  : Successfully done setting XSCT server connection channel  
+15:31:13 INFO  : Successfully done setting workspace for the tool. 
+15:31:16 INFO  : Platform repository initialization has completed.
+15:31:17 INFO  : Registering command handlers for Vitis TCF services
+15:31:17 INFO  : Successfully done query RDI_DATADIR 
+16:06:21 INFO  : Checking for BSP changes to sync application flags for project 'libapp'...
+16:06:57 INFO  : Checking for BSP changes to sync application flags for project 'r5app'...
+16:28:55 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynqmp -o D:/files/VitisProject/demoAmp/r5loveWithDpu/output/BOOT.bin
+16:28:55 INFO  : Creating new bif file D:\files\VitisProject\demoAmp\r5loveWithDpu\output\output.bif
+16:28:57 INFO  : Bootgen command execution is done.
+16:54:58 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\files\VitisProject\demoAmp\r5loveWithDpu\temp_xsdb_launch_script.tcl
+16:55:00 INFO  : XSCT server has started successfully.
+16:55:00 INFO  : plnx-install-location is set to ''
+16:55:00 INFO  : Successfully done setting XSCT server connection channel  
+16:55:00 INFO  : Successfully done setting workspace for the tool. 
+16:55:03 INFO  : Platform repository initialization has completed.
+16:55:03 INFO  : Successfully done query RDI_DATADIR 
+16:55:03 INFO  : Registering command handlers for Vitis TCF services

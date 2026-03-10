@@ -1,57 +1,7 @@
-16:45:10 **** Build of configuration Debug for project r5app ****
-make all 
-'Building file: ../src/helper.c'
-'Invoking: ARM R5 gcc compiler'
-armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/helper.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/helper.d" -MT"src/helper.o" -o "src/helper.o" "../src/helper.c"
-'Finished building: ../src/helper.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: ARM R5 gcc compiler'
-armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
-' '
-'Building file: ../src/platform_info.c'
-'Invoking: ARM R5 gcc compiler'
-armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/platform_info.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/platform_info.d" -MT"src/platform_info.o" -o "src/platform_info.o" "../src/platform_info.c"
-'Finished building: ../src/platform_info.c'
-' '
-'Building file: ../src/rsc_table.c'
-'Invoking: ARM R5 gcc compiler'
-armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/rsc_table.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/rsc_table.d" -MT"src/rsc_table.o" -o "src/rsc_table.o" "../src/rsc_table.c"
-../src/rsc_table.c:11: warning: "VIRTIO_RPMSG_F_NS" redefined
-   11 | #define VIRTIO_RPMSG_F_NS           1  /* 启用 namespace announcement */
-      | 
-In file included from D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include/openamp/open_amp.h:12,
-                 from ../src/rsc_table.c:2:
-D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include/openamp/rpmsg_virtio.h:30: note: this is the location of the previous definition
-   30 | #define VIRTIO_RPMSG_F_NS 0 /* RP supports name service notifications */
-      | 
-'Finished building: ../src/rsc_table.c'
-' '
-'Building file: ../src/threadx_amp_demo.c'
-'Invoking: ARM R5 gcc compiler'
-armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/threadx_amp_demo.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/threadx_amp_demo.d" -MT"src/threadx_amp_demo.o" -o "src/threadx_amp_demo.o" "../src/threadx_amp_demo.c"
-../src/threadx_amp_demo.c:65:25: warning: 'TimerInstance' defined but not used [-Wunused-variable]
-   65 | static XTtcPs           TimerInstance;
-      |                         ^~~~~~~~~~~~~
-'Finished building: ../src/threadx_amp_demo.c'
-' '
-'Building file: ../src/zynqmp_r5_a53_rproc.c'
-'Invoking: ARM R5 gcc compiler'
-armr5-none-eabi-gcc -DARMR5 -DTX_INCLUDE_USER_DEFINE_FILE -Wall -O0 -g3 -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src\threadx\inc" -I"D:\files\VitisProject\demoAmp\r5loveWithDpu\r5app\src" -I"D:\files\VitisProject\demoAmp\amp_plat\export\amp_plat\sw\amp_plat\standalone_domain\bspinclude\include" -c -fmessage-length=0 -MT"src/zynqmp_r5_a53_rproc.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ID:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bspinclude/include -MMD -MP -MF"src/zynqmp_r5_a53_rproc.d" -MT"src/zynqmp_r5_a53_rproc.o" -o "src/zynqmp_r5_a53_rproc.o" "../src/zynqmp_r5_a53_rproc.c"
-'Finished building: ../src/zynqmp_r5_a53_rproc.c'
-' '
-'Building target: r5app.elf'
-'Invoking: ARM R5 gcc linker'
-armr5-none-eabi-gcc -L"D:\files\VitisProject\demoAmp\amp_plat\psu_cortexr5_0\standalone_domain\bsp\psu_cortexr5_0\lib" -L"D:\files\VitisProject\demoAmp\r5loveWithDpu\libapp\Debug" -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16    -Wl,--start-group -lapp -lopen_amp -lmetal -lxil -lgcc -lc -Wl,--end-group -Wl,-T -Wl,../src/lscript.ld.amp_fixed -LD:/files/VitisProject/r5love/design_1_wrapperf/export/design_1_wrapperf/sw/design_1_wrapperf/domain_psu_cortexr5_0/bsplib/lib -o "r5app.elf"  ./src/helper.o ./src/platform.o ./src/platform_info.o ./src/rsc_table.o ./src/threadx_amp_demo.o ./src/zynqmp_r5_a53_rproc.o   -lapp -lopen_amp -lmetal -lxil -lc -lgcc -lopen_amp -lxil -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: r5app.elf'
-' '
-'Invoking: ARM R5 Print Size'
-armr5-none-eabi-size r5app.elf  |tee "r5app.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  92223	   4740	 128280	 225243	  36fdb	r5app.elf
-'Finished building: r5app.elf.size'
+16:58:21 **** Clean-only build of configuration Debug for project r5app ****
+make clean 
+rm -rf  ./src/helper.o ./src/platform.o ./src/platform_info.o ./src/rsc_table.o ./src/threadx_amp_demo.o ./src/zynqmp_r5_a53_rproc.o  ./src/helper.d ./src/platform.d ./src/platform_info.d ./src/rsc_table.d ./src/threadx_amp_demo.d ./src/zynqmp_r5_a53_rproc.d  r5app.elf.size  r5app.elf
 ' '
 
-16:45:12 Build Finished (took 1s.506ms)
+16:58:21 Build Finished (took 127ms)
 
