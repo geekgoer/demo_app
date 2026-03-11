@@ -163,6 +163,58 @@
 //	Xil_DCacheInvalidate();
 //	Xil_ICacheInvalidate();
 //}
+
+
+
+
+
+
+
+//
+//#include "xparameters.h"
+//#include "xil_exception.h"
+//#include "xscugic.h"
+//#include <metal/sys.h>
+//#include <metal/irq.h>
+//#include "platform_info.h"
+//
+//#define INTC_DEVICE_ID XPAR_SCUGIC_0_DEVICE_ID
+//static XScuGic xInterruptController;
+//
+//static int app_gic_initialize(void)
+//{
+//    XScuGic_Config *int_ctrl_config = XScuGic_LookupConfig(INTC_DEVICE_ID);
+//    if (NULL == int_ctrl_config) return XST_FAILURE;
+//
+//    /* 初始化 GIC (有 -DUSE_AMP=1 护体，非常安全) */
+//    XScuGic_CfgInitialize(&xInterruptController, int_ctrl_config, int_ctrl_config->CpuBaseAddress);
+//
+//    /* 注册异常处理 */
+//    Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_IRQ_INT,
+//                                (Xil_ExceptionHandler)XScuGic_InterruptHandler,
+//                                &xInterruptController);
+//
+//    /* 挂载 OpenAMP 的 IPI 中断 */
+//    XScuGic_Connect(&xInterruptController, IPI_IRQ_VECT_ID,
+//                    (Xil_ExceptionHandler)metal_xlnx_irq_isr,
+//                    (void *)IPI_IRQ_VECT_ID);
+//    XScuGic_Enable(&xInterruptController, IPI_IRQ_VECT_ID);
+//
+//    Xil_ExceptionEnable();
+//    return 0;
+//}
+//
+//static void system_metal_logger(enum metal_log_level level, const char *format, ...) { }
+//
+//int init_system(void)
+//{
+//    struct metal_init_params metal_param = { .log_handler = system_metal_logger, .log_level = METAL_LOG_INFO };
+//    metal_init(&metal_param);
+//    if (app_gic_initialize() != 0) return -1;
+//    return metal_xlnx_irq_init();
+//}
+//
+//void cleanup_system() { metal_finish(); }
 #include "xparameters.h"
 #include "xil_exception.h"
 #include "xscugic.h"
@@ -178,15 +230,13 @@ static int app_gic_initialize(void)
     XScuGic_Config *int_ctrl_config = XScuGic_LookupConfig(INTC_DEVICE_ID);
     if (NULL == int_ctrl_config) return XST_FAILURE;
 
-    /* 初始化 GIC (有 -DUSE_AMP=1 护体，非常安全) */
+    /* 独立初始化 GIC，专供 OpenAMP 使用 */
     XScuGic_CfgInitialize(&xInterruptController, int_ctrl_config, int_ctrl_config->CpuBaseAddress);
 
-    /* 注册异常处理 */
     Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_IRQ_INT,
                                 (Xil_ExceptionHandler)XScuGic_InterruptHandler,
                                 &xInterruptController);
 
-    /* 挂载 OpenAMP 的 IPI 中断 */
     XScuGic_Connect(&xInterruptController, IPI_IRQ_VECT_ID,
                     (Xil_ExceptionHandler)metal_xlnx_irq_isr,
                     (void *)IPI_IRQ_VECT_ID);

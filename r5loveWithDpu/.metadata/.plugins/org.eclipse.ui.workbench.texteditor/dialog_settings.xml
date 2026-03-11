@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="DEMO_PRIORITY" key="selection"/>
+		<item value="timer_interrupt_handle" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="timer_interrupt_handle"/>
+			<item value="demo_thread_ent"/>
+			<item value="emo_thread_entr"/>
+			<item value="rpmsg_endpoint_cb"/>
+			<item value="x_application_defin"/>
+			<item value="latile uint32_t *diag_"/>
 			<item value="DEMO_PRIORITY"/>
 			<item value="failed"/>
 			<item value="pmsg-openamp-demo-channel"/>
 			<item value="timer_interrupt_handler"/>
 			<item value="setup_timer_interrupt"/>
-			<item value="rpmsg_endpoint_cb"/>
 			<item value="InterruptController"/>
 			<item value="app_gic_initialize"/>
 			<item value="TODO"/>
 			<item value="DEADBEE2"/>
-			<item value="rpmsg_thread_entry"/>
-			<item value="rpmsg_app_init"/>
-			<item value="diag_ptr = 0xA0000001"/>
-			<item value="shutdown_req"/>
-			<item value="started"/>
 		</list>
 		<list key="replacehistory">
 		</list>
