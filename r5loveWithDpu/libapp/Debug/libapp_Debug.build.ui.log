@@ -1,4 +1,4 @@
-2026-03-11T20:01:32.808602200255-20:01:32 **** Build of configuration Debug for project libapp ****
+2026-03-24T13:08:16.132245500255-13:08:16 **** Build of configuration Debug for project libapp ****
 000-make all 
 000-'Building file: ../src/threadx/ports/tx_initialize_low_level.S'
 000-'Invoking: ARM R5 gcc compiler'
@@ -1224,5 +1224,5 @@
 000-'Finished building: libapp.a.size'
 000-' '
 00255-
-20:02:11 Build Finished (took 38s.999ms)
+13:08:51 Build Finished (took 35s.573ms)
 

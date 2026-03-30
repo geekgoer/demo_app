@@ -1,4 +1,4 @@
-20:01:32 **** Build of configuration Debug for project libapp ****
+13:08:16 **** Build of configuration Debug for project libapp ****
 make all 
 'Building file: ../src/threadx/ports/tx_initialize_low_level.S'
 'Invoking: ARM R5 gcc compiler'
@@ -1224,5 +1224,5 @@ armr5-none-eabi-size libapp.a  |tee "libapp.a.size"
 'Finished building: libapp.a.size'
 ' '
 
-20:02:11 Build Finished (took 38s.999ms)
+13:08:51 Build Finished (took 35s.573ms)
 

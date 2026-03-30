@@ -1,4 +1,4 @@
-20:02:12 **** Build of configuration Debug for project r5app ****
+13:08:52 **** Build of configuration Debug for project r5app ****
 make all 
 'Building file: ../src/helper.c'
 'Invoking: ARM R5 gcc compiler'
@@ -46,9 +46,9 @@ armr5-none-eabi-gcc -L"D:\files\VitisProject\demoAmp\amp_plat\psu_cortexr5_0\sta
 'Invoking: ARM R5 Print Size'
 armr5-none-eabi-size r5app.elf  |tee "r5app.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  89111	   4736	 128352	 222199	  363f7	r5app.elf
+  89351	   4736	 128352	 222439	  364e7	r5app.elf
 'Finished building: r5app.elf.size'
 ' '
 
-20:02:13 Build Finished (took 1s.620ms)
+13:08:53 Build Finished (took 1s.633ms)
 

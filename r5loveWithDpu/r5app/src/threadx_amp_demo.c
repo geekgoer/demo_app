@@ -614,6 +614,27 @@ extern int init_system(void);
 extern void cleanup_system(void);
 UCHAR memory_area[DEMO_BYTE_POOL_SIZE];
 
+/* ========================================================================= */
+/* 极高精度硬件秒表 (PMU) 驱动代码 */
+/* ========================================================================= */
+
+/* 1. 初始化并启动 PMU 周期计数器 */
+void pmu_enable(void) {
+    /* 通过 CP15 协处理器，写 PMCR 寄存器：使能 PMU (bit 0) 并重置计数器 (bit 2) */
+    __asm__ volatile ("mcr p15, 0, %0, c9, c12, 0" :: "r"(1 | 4));
+    /* 写 PMCNTENSET 寄存器：单独使能周期计数器 (bit 31) */
+    __asm__ volatile ("mcr p15, 0, %0, c9, c12, 1" :: "r"(1 << 31));
+}
+
+/* 2. 获取当前时钟周期数 */
+static inline uint32_t get_cycle_count(void) {
+    uint32_t count;
+    /* 读取 PMCCNTR 寄存器 */
+    __asm__ volatile ("mrc p15, 0, %0, c9, c13, 0" : "=r"(count));
+    return count;
+}
+
+
 /* 替代 tx_thread_sleep 的裸机延时函数 */
 void baremetal_delay_ms(int ms) {
     for (volatile int i = 0; i < ms * 20000; i++);
@@ -654,6 +675,39 @@ int rpmsg_app_init(void) {
     return 0;
 }
 
+//void demo_thread_entry(ULONG thread_input) {
+//    (void)thread_input;
+//    char send_buf[64];
+//    int frame_count = 1;
+//
+//    LPRINTF("Scenario 1: Serial Blocking Baseline Started...\r\n");
+//    LPRINTF("Waiting for Linux to send START signal (Please run ./resnet50 now)...\r\n");
+//
+//    /* 死等 Linux 第一次发来的 START 信号 */
+//    tx_semaphore_get(&dpu_sync_sema, TX_WAIT_FOREVER);
+//
+//    LPRINTF("Linux is Online! Commencing DPU pipeline...\r\n");
+//
+//    while (frame_count <= 100) {
+//        sprintf(send_buf, "INFER_REQ: FRAME_%03d", frame_count);
+//
+//        /* 发送推理指令 */
+//        rpmsg_send(&lept, send_buf, strlen(send_buf) + 1);
+//
+//        /* 死等推理结果返回 */
+//        tx_semaphore_get(&dpu_sync_sema, TX_WAIT_FOREVER);
+//
+//        /* 打印结果 */
+//        LPRINTF("Frame %03d | Result: %s\r\n", frame_count, dpu_result_buf);
+//
+//        frame_count++;
+//        baremetal_delay_ms(50);
+//    }
+//
+//    LPRINTF("Scenario 1 Test Completed.\r\n");
+//    while(1) { baremetal_delay_ms(1000); }
+//}
+
 void demo_thread_entry(ULONG thread_input) {
     (void)thread_input;
     char send_buf[64];
@@ -670,14 +724,28 @@ void demo_thread_entry(ULONG thread_input) {
     while (frame_count <= 100) {
         sprintf(send_buf, "INFER_REQ: FRAME_%03d", frame_count);
 
+        /* 1. 按下物理秒表，记录起始周期数 */
+        uint32_t t1_cycles = get_cycle_count();
+
         /* 发送推理指令 */
         rpmsg_send(&lept, send_buf, strlen(send_buf) + 1);
 
         /* 死等推理结果返回 */
         tx_semaphore_get(&dpu_sync_sema, TX_WAIT_FOREVER);
 
-        /* 打印结果 */
-        LPRINTF("Frame %03d | Result: %s\r\n", frame_count, dpu_result_buf);
+        /* 2. 再次按下物理秒表，记录结束周期数 */
+        uint32_t t2_cycles = get_cycle_count();
+
+        /* 3. 计算耗时：因为 R5 是 500MHz，所以 1 毫秒 = 500,000 个周期 */
+        uint32_t delta_cycles = t2_cycles - t1_cycles;
+        float latency_ms = (float)delta_cycles / 500000.0f;
+
+        /* 打印带有精准毫秒级时延的结果 */
+        /* 注意：xil_printf 不支持直接打 float，所以强转成整数打出 毫秒 和 微秒 部分 */
+        int ms_int = (int)latency_ms;
+        int us_int = (int)((latency_ms - ms_int) * 1000);
+        LPRINTF("Frame %03d | Latency: %d.%03d ms | Result: %s\r\n",
+                frame_count, ms_int, us_int, dpu_result_buf);
 
         frame_count++;
         baremetal_delay_ms(50);
@@ -686,6 +754,7 @@ void demo_thread_entry(ULONG thread_input) {
     LPRINTF("Scenario 1 Test Completed.\r\n");
     while(1) { baremetal_delay_ms(1000); }
 }
+
 
 void rpmsg_thread_entry(ULONG thread_input) {
     (void)thread_input;
@@ -731,10 +800,20 @@ int main() {
         : : : "r0"
     );
 
+//    init_platform();
+//    *heartbeat_ptr = 0xDEADBEE2;
+//
+//    /* 无定时器的纯事件驱动 ThreadX 启动！ */
+//    tx_kernel_enter();
+//    return 0;
     init_platform();
-    *heartbeat_ptr = 0xDEADBEE2;
+	*heartbeat_ptr = 0xDEADBEE2;
 
-    /* 无定时器的纯事件驱动 ThreadX 启动！ */
-    tx_kernel_enter();
-    return 0;
+	/* ！！！在此激活底层硬件秒表 ！！！ */
+	pmu_enable();
+
+	/* 无定时器的纯事件驱动 ThreadX 启动！ */
+	tx_kernel_enter();
+	return 0;
+
 }

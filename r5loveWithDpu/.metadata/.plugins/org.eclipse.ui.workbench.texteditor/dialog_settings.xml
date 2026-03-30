@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="static int rpmsg_endpoint_cb(struct rpmsg_endpoint *ept, void *data, size_t len," key="selection"/>
+		<item value="baremetal_delay_ms" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="baremetal_delay_ms"/>
+			<item value="offsetof"/>
+			<item value="platform_poll"/>
+			<item value="rpmsg_endpoint_cb"/>
+			<item value="rpmsg_app_init"/>
+			<item value="VIRTIO_DEV_SLAVE"/>
+			<item value="rpdev_global"/>
+			<item value="dpu_sync_sema"/>
+			<item value="rpmsg_thread_entry"/>
+			<item value="memory_area"/>
+			<item value="tx_application_define"/>
+			<item value="emo_thread_entry"/>
+			<item value="UCHAR memory_area[DEMO_BYTE_POOL_SIZE]"/>
 			<item value="static int rpmsg_endpoint_cb(struct rpmsg_endpoint *ept, void *data, size_t len,"/>
 			<item value="demo_thread_entr"/>
-			<item value="rpmsg_endpoint_cb"/>
-			<item value="timer_interrupt_handle"/>
-			<item value="demo_thread_ent"/>
-			<item value="emo_thread_entr"/>
-			<item value="x_application_defin"/>
-			<item value="latile uint32_t *diag_"/>
-			<item value="DEMO_PRIORITY"/>
-			<item value="failed"/>
-			<item value="pmsg-openamp-demo-channel"/>
-			<item value="timer_interrupt_handler"/>
-			<item value="setup_timer_interrupt"/>
-			<item value="InterruptController"/>
-			<item value="app_gic_initialize"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -31,7 +31,7 @@
 		<item value="335" key="DIALOG_WIDTH"/>
 		<item value="1|Microsoft YaHei UI|8.765218|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		<item value="452" key="DIALOG_HEIGHT"/>
-		<item value="1239" key="DIALOG_X_ORIGIN"/>
-		<item value="236" key="DIALOG_Y_ORIGIN"/>
+		<item value="1477" key="DIALOG_X_ORIGIN"/>
+		<item value="195" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
